@@ -45,8 +45,8 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span className="ml-3 text-sm text-slate-600">
-                  10333 Richmond Ave Ste 1000<br />
-                  Houston, TX 77042
+                  5902 Newfoundland Ct <br />
+                  Spring, TX 77379
                 </span>
               </li>
               <li className="flex items-center">
@@ -74,7 +74,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} LQcomparecableinternet. All rights reserved.
           </p>
           <p className="text-xs text-slate-500 mt-4 md:mt-0 max-w-2xl text-right md:text-left">
-            LQcomparecableinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+            LQcomparecableinternet is an independent comparison platform — not Verizon,Spectrum,Xfinity Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
           </p>
         </div>
       </div>
