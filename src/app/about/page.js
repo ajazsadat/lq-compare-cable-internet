@@ -59,7 +59,7 @@ export default function About() {
             </div>
 
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-tr from-teal-600/20 to-emerald-500/20 rounded-3xl blur-2xl transform rotate-3"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-emerald-600/20 to-emerald-500/20 rounded-3xl blur-2xl transform rotate-3"></div>
               <div className="bg-[#ffffff] border border-slate-200 rounded-3xl p-10 relative z-10 shadow-2xl">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">Need Help Deciding?</h3>
                 <p className="text-slate-600 mb-8">

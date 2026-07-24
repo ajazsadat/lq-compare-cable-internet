@@ -1,22 +1,25 @@
 'use client';
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function MobilePopup() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
+    setIsOpen(false);
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, 1500);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [pathname]);
 
   if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/60 md:hidden p-4">
-      <div className="bg-white rounded-2xl w-full max-w-sm p-6 relative shadow-2xl transition-all duration-300 transform scale-100 opacity-100">
+      <div className="bg-white rounded-2xl w-full h-[80vh] p-6 relative shadow-2xl transition-all duration-300 transform scale-100 opacity-100 flex flex-col justify-center">
         <button 
           onClick={() => setIsOpen(false)}
           className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 focus:outline-none"
@@ -38,7 +41,7 @@ export default function MobilePopup() {
           </p>
           <a
             href="tel:8889594513"
-            className="block w-full py-4 px-4 bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 text-white font-bold rounded-xl shadow-lg transition-transform transform hover:-translate-y-1"
+            className="block w-full py-4 px-4 bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 text-white font-bold rounded-xl shadow-lg transition-transform transform hover:-translate-y-1"
           >
             Call (888) 959-4513
           </a>

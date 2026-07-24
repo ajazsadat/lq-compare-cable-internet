@@ -83,7 +83,7 @@ export default function WindstreamPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#f8fafc] via-transparent to-transparent"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
           <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 drop-shadow-lg">
-            Compare <span className="text-green-400">Windstream</span> Plans With LQcomparecableinternet
+            Compare <span className="text-emerald-400">Windstream</span> Plans With LQcomparecableinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
             1 Gig Speed Option – Designed for streaming, online gaming, and remote work use cases.
@@ -104,15 +104,15 @@ export default function WindstreamPage() {
         {/* Internet Plans Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {plans.map((plan, index) => (
-            <div key={index} className="bg-[#ffffff] rounded-3xl p-8 border border-slate-200 hover:border-green-500/50 transition-all duration-300 flex flex-col relative overflow-hidden shadow-xl">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
+            <div key={index} className="bg-[#ffffff] rounded-3xl p-8 border border-slate-200 hover:border-emerald-500/50 transition-all duration-300 flex flex-col relative overflow-hidden shadow-xl">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
               
               <h3 className="text-2xl font-bold text-slate-900 mb-2 relative z-10">{plan.speed}</h3>
               
               <ul className="mt-6 space-y-4 flex-grow relative z-10">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start text-slate-600 text-sm">
-                    <svg className="w-5 h-5 text-green-400 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                    <svg className="w-5 h-5 text-emerald-400 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                     {feature}
                   </li>
                 ))}
@@ -129,7 +129,7 @@ export default function WindstreamPage() {
                 
                 <a
                   href="tel:8889594513"
-                  className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-slate-900 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 shadow-lg shadow-green-500/25 transition-all transform hover:-translate-y-1"
+                  className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-slate-900 bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg shadow-emerald-500/25 transition-all transform hover:-translate-y-1"
                 >
                   Compare & Call (888) 959-4513
                 </a>
@@ -146,16 +146,16 @@ export default function WindstreamPage() {
           <h2 className="text-3xl font-bold text-slate-900 mb-10 text-center">Find the Perfect TV Package for You!</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {tvPackages.map((pkg, index) => (
-              <div key={`tv-${index}`} className="bg-[#f8fafc] rounded-2xl p-6 border border-slate-200 hover:border-teal-500/50 transition-all duration-300 shadow-lg">
+              <div key={`tv-${index}`} className="bg-[#f8fafc] rounded-2xl p-6 border border-slate-200 hover:border-emerald-500/50 transition-all duration-300 shadow-lg">
                 <div className="flex justify-between items-center border-b border-slate-200 pb-4 mb-4">
                   <h3 className="text-xl font-bold text-slate-900">{pkg.name}</h3>
-                  <span className="bg-teal-900/40 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full">{pkg.channels}</span>
+                  <span className="bg-emerald-900/40 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full">{pkg.channels}</span>
                 </div>
                 
                 <ul className="space-y-3 mb-6 flex-grow">
                   {pkg.features.map((feature, i) => (
                     <li key={i} className="flex items-start text-slate-600 text-sm">
-                      <span className="text-teal-400 mr-2">✓</span>
+                      <span className="text-emerald-400 mr-2">✓</span>
                       {feature}
                     </li>
                   ))}

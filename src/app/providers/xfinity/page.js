@@ -77,7 +77,7 @@ export default function XfinityPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#f8fafc] via-transparent to-transparent"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
           <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 drop-shadow-lg">
-            Compare <span className="text-purple-400">Xfinity</span> Plans With LQcomparecableinternet
+            Compare <span className="text-emerald-400">Xfinity</span> Plans With LQcomparecableinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
             Enjoy high-speed internet options with Xfinity, designed for streaming, gaming, and remote work.
@@ -91,19 +91,19 @@ export default function XfinityPage() {
           <h2 className="text-3xl font-bold text-slate-900 mb-6">Why Choose Xfinity?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
             <div className="bg-[#ffffff] p-4 rounded-xl border border-slate-200 flex items-center">
-              <span className="text-purple-500 mr-3 text-xl">✅</span>
+              <span className="text-emerald-500 mr-3 text-xl">✅</span>
               <span className="text-slate-600">High-speed options for Streaming, Gaming & Work</span>
             </div>
             <div className="bg-[#ffffff] p-4 rounded-xl border border-slate-200 flex items-center">
-              <span className="text-purple-500 mr-3 text-xl">✅</span>
+              <span className="text-emerald-500 mr-3 text-xl">✅</span>
               <span className="text-slate-600">No Data Caps – Unlimited Internet Usage</span>
             </div>
             <div className="bg-[#ffffff] p-4 rounded-xl border border-slate-200 flex items-center">
-              <span className="text-purple-500 mr-3 text-xl">✅</span>
+              <span className="text-emerald-500 mr-3 text-xl">✅</span>
               <span className="text-slate-600">Advanced WiFi for Extended Home Coverage</span>
             </div>
             <div className="bg-[#ffffff] p-4 rounded-xl border border-slate-200 flex items-center">
-              <span className="text-purple-500 mr-3 text-xl">✅</span>
+              <span className="text-emerald-500 mr-3 text-xl">✅</span>
               <span className="text-slate-600">Limited-Time Deals – Promotional Pricing Available</span>
             </div>
           </div>
@@ -119,15 +119,15 @@ export default function XfinityPage() {
         {/* Plans Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {plans.map((plan, index) => (
-            <div key={index} className="bg-[#ffffff] rounded-3xl p-8 border border-slate-200 hover:border-purple-500/50 transition-all duration-300 flex flex-col relative overflow-hidden shadow-xl">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
+            <div key={index} className="bg-[#ffffff] rounded-3xl p-8 border border-slate-200 hover:border-emerald-500/50 transition-all duration-300 flex flex-col relative overflow-hidden shadow-xl">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
               
               <h3 className="text-2xl font-bold text-slate-900 mb-2 relative z-10">Speeds {plan.speed}</h3>
               
               <ul className="mt-6 space-y-4 flex-grow relative z-10">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start text-slate-600 text-sm">
-                    <svg className="w-5 h-5 text-purple-400 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                    <svg className="w-5 h-5 text-emerald-400 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                     {feature}
                   </li>
                 ))}
@@ -144,7 +144,7 @@ export default function XfinityPage() {
                 
                 <a
                   href="tel:8889594513"
-                  className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-slate-900 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 shadow-lg shadow-purple-500/25 transition-all transform hover:-translate-y-1"
+                  className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-slate-900 bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg shadow-emerald-500/25 transition-all transform hover:-translate-y-1"
                 >
                   Compare & Call (888) 959-4513
                 </a>
