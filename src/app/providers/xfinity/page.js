@@ -112,7 +112,7 @@ export default function XfinityPage() {
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">XFINITY INTERNET PLANS – SPEED OPTIONS FOR EVERY TYPE OF HOME</h2>
           <p className="text-slate-600 max-w-4xl mx-auto text-sm">
-            "We are not Xfinity or any other service provider. These plans are offered via our licensed partner platforms. Prices, features, and hardware are subject to Xfinity’s terms and availability."
+            "We are not Xfinity or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to Xfinity’s terms and availability."
           </p>
         </div>
 
@@ -149,7 +149,7 @@ export default function XfinityPage() {
                   Compare & Call (888) 959-4513
                 </a>
                 <p className="text-xs text-slate-500 mt-4 text-center">
-                  Offers, availability, speeds, and pricing vary by ZIP. We are an independent authorized agent and do not provide service directly.
+                  Offers, availability, speeds, and pricing vary by ZIP. We are an independent comparison and referral service and do not provide service directly.
                 </p>
               </div>
             </div>
