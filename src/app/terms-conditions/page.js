@@ -28,7 +28,7 @@ export default function TermsConditions() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">2. Services Description</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We provide plan comparison information and order facilitation services for cable, internet, phone, and mobile services as an authorized reseller and referral partner. Authorization and availability may vary by service provider and location. All actual service provision, pricing, promotions, billing, installation, and customer support are handled directly by the underlying service providers. We do not guarantee service availability, pricing, speeds, or promotional terms.
+            We provide plan comparison information and order facilitation services for cable, internet, phone, and mobile services as an independent comparison and referral service. Availability may vary by service provider and location. All actual service provision, pricing, promotions, billing, installation, and customer support are handled directly by the underlying service providers. We do not guarantee service availability, pricing, speeds, or promotional terms.
           </p>
         </section>
 

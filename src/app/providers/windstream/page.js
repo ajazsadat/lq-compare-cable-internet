@@ -97,7 +97,7 @@ export default function WindstreamPage() {
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Internet Plans For Windstream</h2>
           <p className="text-slate-600 max-w-4xl mx-auto text-sm">
-            "We are not Windstream or any other service provider. These plans are offered via our licensed partner platforms. Prices, features, and hardware are subject to provider's terms and availability."
+            "We are not Windstream or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to provider's terms and availability."
           </p>
         </div>
 

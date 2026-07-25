@@ -16,12 +16,12 @@ export default function Home() {
 
   const faqs = [
     {
-      q: "Are you a direct internet service provider?",
-      a: "No, we are an Independent Authorized Reseller. Our platform helps you compare various plans and connects you directly with top service providers. We do not supply the actual internet or TV services."
+      q: "Are you an internet, cable, or wireless provider?",
+      a: "No — we’re not a direct provider of internet, wireless, or cable services. We’re an independent comparison and referral service. We help you explore and compare plans from multiple carriers across the U.S., and connect you directly with the provider you choose — giving you access to more options in one place, without being tied to any single carrier."
     },
     {
       q: "Is there a fee to use this comparison service?",
-      a: "Our service is completely free for consumers. We are compensated by our provider partners when you enroll through us, meaning you never pay extra for our assistance."
+      a: "Our service is completely free for consumers. We may receive compensation from providers or referral partners when you enroll through us, meaning you never pay extra for our assistance."
     },
     {
       q: "What is the easiest way to compare plans?",
@@ -33,11 +33,15 @@ export default function Home() {
     },
     {
       q: "Can I get special discounts or promotions?",
-      a: "Absolutely! Carriers frequently offer free installation, equipment upgrades, and bundle savings. As an authorized partner, we often have access to exclusive deals you won't easily find elsewhere."
+      a: "Absolutely! Carriers frequently offer free installation, equipment upgrades, and bundle savings. We help you review current offers available in your area so you can compare what’s available."
+    },
+    {
+      q: "How is installation arranged once I select a plan?",
+      a: "Once you confirm your selection, we help coordinate the process with your chosen provider. Installation timelines vary by provider, location, and technician availability — your provider will confirm the exact schedule once your order is placed."
     },
     {
       q: "What is the next step?",
-      a: "Just give our experts a call to review your local provider options, lock in the best rate, and schedule your service activation instantly."
+      a: "Just give our experts a call to review your local provider options, lock in the best rate, and complete signup directly with the provider you choose."
     }
   ];
 
@@ -65,7 +69,7 @@ export default function Home() {
             Compare Multiple <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-300">Internet Plans</span> In One Place.
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-            LQcomparecableinternet serves as your independent guide to comparing internet plans and securing enrollment. Please note we are an authorized partner, not a direct internet service provider.
+            LQcomparecableinternet serves as your independent guide to comparing internet plans and securing enrollment. Please note we are an independent comparison and referral service, not a direct internet service provider.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

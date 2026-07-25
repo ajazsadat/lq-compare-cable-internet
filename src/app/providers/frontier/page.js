@@ -123,7 +123,7 @@ export default function FrontierPage() {
 
         <div className="mb-12 text-center">
           <p className="text-slate-600 max-w-4xl mx-auto text-sm">
-            "We are not Frontier or any other service provider. These plans are offered via our licensed partner platforms. Prices, features, and hardware are subject to Frontier’s terms and availability."
+            "We are not Frontier or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to Frontier’s terms and availability."
           </p>
         </div>
 
