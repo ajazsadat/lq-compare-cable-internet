@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
 export const metadata = {
@@ -178,6 +179,7 @@ export default function WindstreamPage() {
 
       </section>
 
+      <ProviderComparisonTable />
       <ProviderWhyChoose providerName="Windstream" />
     </div>
   );
