@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
 export const metadata = {
   title: 'Windstream Internet & Phone | LQcomparecableinternet',
@@ -173,6 +174,8 @@ export default function WindstreamPage() {
         </div>
 
       </section>
+
+      <ProviderWhyChoose providerName="Windstream" />
     </div>
   );
 }
