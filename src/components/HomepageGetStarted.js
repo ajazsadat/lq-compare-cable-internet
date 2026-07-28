@@ -73,11 +73,11 @@ export default function HomepageGetStarted() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-5">Get Started</h2>
             <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-4">
-              Call{' '}
-              <a href="tel:8889594513" className="text-emerald-600 font-semibold italic hover:underline">
+              Call to get assistance to compare providers at{' '}
+              <a href="tel:(888) 959-4513" className="text-emerald-600 font-semibold italic hover:underline">
                 (888) 959-4513
-              </a>{' '}
-              or request a free, no-obligation quote to see available options in your area.
+              </a>
+              , or request a free, no-obligation quote to see available options in your area.
             </p>
             <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-8">
               Our experts will walk you through plans, pricing, and promotions — so you can upgrade
@@ -87,7 +87,7 @@ export default function HomepageGetStarted() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="tel:8889594513"
+                  href="tel:(888) 959-4513"
                   className="inline-flex items-center gap-3 text-slate-800 font-semibold hover:text-emerald-600 transition-colors"
                 >
                   <span className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center shrink-0">

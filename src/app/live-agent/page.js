@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 const PHONE_DISPLAY = '(888) 959-4513';
-const PHONE_TEL = 'tel:8889594513';
+const PHONE_TEL = 'tel:(888) 959-4513';
 
 function PhoneBadge() {
   return (

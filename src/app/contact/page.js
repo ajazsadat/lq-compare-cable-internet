@@ -54,7 +54,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900 mb-1">Phone Number</h3>
                     <p className="text-slate-600 mb-2">Available Mon-Fri, 9am - 6pm EST</p>
-                    <a href="tel:8889594513" className="text-xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors">
+                    <a href="tel:(888) 959-4513" className="text-xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors">
                       (888) 959-4513
                     </a>
                   </div>

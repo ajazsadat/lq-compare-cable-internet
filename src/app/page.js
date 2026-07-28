@@ -74,11 +74,11 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:8889594513"
+              href="tel:(888) 959-4513"
               className="inline-flex items-center justify-center text-center px-8 py-4 text-lg font-bold rounded-full text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all transform hover:-translate-y-1"
             >
               <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-              Compare & Call: (888) 959-4513
+              Call to get assistance to compare providers: (888) 959-4513
             </a>
           </div>
         </div>
@@ -196,13 +196,13 @@ export default function Home() {
                 <div className="relative z-10">
                   <p className="text-sm text-emerald-400 font-semibold uppercase tracking-wider mb-2">Reach Out for Instant Help</p>
                   <a
-                    href="tel:8889594513"
+                    href="tel:(888) 959-4513"
                     className="flex items-center justify-center text-center w-full px-8 py-5 text-xl font-bold rounded-xl text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg transition-all transform hover:-translate-y-1"
                   >
                     <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                    Compare & Call (888) 959-4513
+                    Call to get assistance to compare providers: (888) 959-4513
                   </a>
-                  <p className="text-xs text-slate-500 mt-4 text-center">Internet comparison & ordering assistance.</p>
+                  <p className="text-xs text-slate-500 mt-4 text-center">Call to get assistance to compare providers.</p>
                 </div>
               </div>
             </div>

@@ -112,8 +112,8 @@ export default function Header() {
               )}
             </div>
 
-            <a href="tel:8889594513" className="ml-8 inline-flex items-center justify-center text-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-[#f8fafc] transition-all transform hover:scale-105">
-              Compare & Call: (888) 959-4513
+            <a href="tel:(888) 959-4513" className="ml-8 inline-flex items-center justify-center text-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-[#f8fafc] transition-all transform hover:scale-105">
+              Call for assistance: (888) 959-4513
             </a>
           </div>
 
@@ -170,10 +170,10 @@ export default function Header() {
             ))}
 
             <a
-              href="tel:8889594513"
+              href="tel:(888) 959-4513"
               className="block w-full text-center mt-4 px-5 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500"
             >
-              Compare & Call (888) 959-4513
+              Call for assistance: (888) 959-4513
             </a>
           </div>
         </div>
