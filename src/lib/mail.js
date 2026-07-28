@@ -1,23 +1,31 @@
 import nodemailer from 'nodemailer';
 
+const SMTP = {
+  host: 'mail.careernhustle.com',
+  port: 465,
+  secure: true,
+  user: 'shah@careernhustle.com',
+  pass: 'Sherry@123$$',
+};
+
+const CONTACT_TO_EMAIL = 'info@lqcomparecableinternet.com';
+
 export function createMailTransporter() {
-  const host = process.env.SMTP_HOST;
-  const port = Number(process.env.SMTP_PORT || 465);
-  const user = process.env.SMTP_USER;
-  const pass = process.env.SMTP_PASS;
-
-  if (!host || !user || !pass) {
-    throw new Error('SMTP is not configured');
-  }
-
   return nodemailer.createTransport({
-    host,
-    port,
-    secure: process.env.SMTP_SECURE !== 'false',
-    auth: { user, pass },
+    host: SMTP.host,
+    port: SMTP.port,
+    secure: SMTP.secure,
+    auth: {
+      user: SMTP.user,
+      pass: SMTP.pass,
+    },
   });
 }
 
 export function getContactInbox() {
-  return process.env.CONTACT_TO_EMAIL || 'info@lqcomparecableinternet.com';
+  return CONTACT_TO_EMAIL;
+}
+
+export function getSmtpFrom() {
+  return SMTP.user;
 }

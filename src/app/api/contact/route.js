@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { createMailTransporter, getContactInbox } from '@/lib/mail';
+import { createMailTransporter, getContactInbox, getSmtpFrom } from '@/lib/mail';
 
 export const runtime = 'nodejs';
 
@@ -96,7 +96,7 @@ export async function POST(request) {
 
     const transporter = createMailTransporter();
     const to = getContactInbox();
-    const from = process.env.SMTP_FROM || process.env.SMTP_USER;
+    const from = getSmtpFrom();
 
     await transporter.sendMail({
       from: `"LQcomparecableinternet" <${from}>`,
