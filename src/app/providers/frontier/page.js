@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
 export const metadata = {
   title: 'Frontier Internet & TV | LQcomparecableinternet',
@@ -167,6 +168,8 @@ export default function FrontierPage() {
           ))}
         </div>
       </section>
+
+      <ProviderWhyChoose providerName="Frontier" />
     </div>
   );
 }
