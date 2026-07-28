@@ -1,5 +1,7 @@
 'use client';
 
+import ContactForm from '@/components/ContactForm';
+
 export default function ProviderWhyChoose({ providerName }) {
   const idPrefix = providerName.toLowerCase().replace(/\s+/g, '-');
 
@@ -76,88 +78,25 @@ export default function ProviderWhyChoose({ providerName }) {
 
           <div className="bg-white rounded-3xl p-7 md:p-9 border border-slate-200 shadow-xl">
             <h3 className="text-2xl font-bold text-slate-900 mb-6">Get Started</h3>
-            <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
-              <div>
-                <label htmlFor={`${idPrefix}-name`} className="block text-sm font-medium text-slate-600 mb-2">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id={`${idPrefix}-name`}
-                  name="name"
-                  className="w-full bg-[#f8fafc] border border-slate-200 rounded-lg px-4 py-3 text-slate-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
-                  placeholder="Your name"
-                />
-              </div>
-
-              <div>
-                <label htmlFor={`${idPrefix}-email`} className="block text-sm font-medium text-slate-600 mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id={`${idPrefix}-email`}
-                  name="email"
-                  className="w-full bg-[#f8fafc] border border-slate-200 rounded-lg px-4 py-3 text-slate-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
-                  placeholder="you@example.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor={`${idPrefix}-phone`} className="block text-sm font-medium text-slate-600 mb-2">
-                  Phone
-                </label>
-                <input
-                  type="tel"
-                  id={`${idPrefix}-phone`}
-                  name="phone"
-                  className="w-full bg-[#f8fafc] border border-slate-200 rounded-lg px-4 py-3 text-slate-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
-                  placeholder="(555) 123-4567"
-                />
-              </div>
-
-              <div>
-                <label htmlFor={`${idPrefix}-message`} className="block text-sm font-medium text-slate-600 mb-2">
-                  Message
-                </label>
-                <textarea
-                  id={`${idPrefix}-message`}
-                  name="message"
-                  rows={4}
-                  className="w-full bg-[#f8fafc] border border-slate-200 rounded-lg px-4 py-3 text-slate-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all resize-none"
-                  placeholder="How can we help?"
-                />
-              </div>
-
-              <div className="flex items-start gap-3">
-                <input
-                  id={`${idPrefix}-consent`}
-                  type="checkbox"
-                  required
-                  className="mt-1 w-4 h-4 bg-[#f8fafc] border border-slate-200 rounded focus:ring-emerald-500 focus:ring-2"
-                />
-                <label htmlFor={`${idPrefix}-consent`} className="text-xs text-slate-600 leading-relaxed">
-                  I agree to the{' '}
-                  <a href="/terms-conditions" className="text-emerald-500 hover:underline">
-                    terms &amp; conditions
-                  </a>{' '}
-                  and{' '}
-                  <a href="/privacy-policy" className="text-emerald-500 hover:underline">
-                    privacy policy
-                  </a>{' '}
-                  provided by Simply Activate Services. By providing my phone number, I agree to
-                  receive text messages and calls from Simply Activate Services. Consent is not a
-                  condition of purchase.
-                </label>
-              </div>
-
-              <button
-                type="submit"
-                className="w-full py-4 px-6 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 shadow-lg shadow-emerald-500/25 transition-all"
-              >
-                Submit
-              </button>
-            </form>
+            <ContactForm
+              source={`${providerName} provider page`}
+              submitLabel="Submit"
+              idPrefix={idPrefix}
+              className="space-y-5"
+              labels={{
+                name: 'Name',
+                email: 'Email',
+                phone: 'Phone',
+                message: 'Message',
+              }}
+              placeholders={{
+                name: 'Your name',
+                email: 'you@example.com',
+                phone: '(555) 123-4567',
+                message: 'How can we help?',
+              }}
+              buttonClassName="w-full py-4 px-6 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 shadow-lg shadow-emerald-500/25 transition-all disabled:opacity-60"
+            />
           </div>
         </div>
       </div>
