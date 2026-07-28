@@ -7,8 +7,8 @@ export const metadata = {
     'Connect with LQcomparecableinternet — speak with a human agent or use the automated support line for independent internet plan comparison and assistance.',
 };
 
-const PHONE_DISPLAY = '(888) 959-4513';
-const PHONE_TEL = 'tel:8889594513';
+const PHONE_DISPLAY = '(888) 908-7350';
+const PHONE_TEL = 'tel:(888) 908-7350';
 
 function PhoneBadge() {
   return (

@@ -14,17 +14,17 @@ export default function ProviderWhyChoose({ providerName }) {
               Why Choose <span className="text-emerald-500">LQcomparecableinternet</span>?
             </h2>
             <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-8">
-              Getting {providerName} services is easier with LQcomparecableinternet. We help you
-              compare plans, understand features and pricing, and select the option that works best
-              for your home or business. Our team guides you every step of the way — clear, reliable,
-              and hassle-free.
+              Getting {providerName} Internet &amp; Cable Services is easier with LQcomparecableinternet.
+              Call to get assistance to compare providers, understand features and pricing, and select
+              the option that works best for your home or business. Our team guides you every step of
+              the way — clear, reliable, and hassle-free.
             </p>
 
             <a
-              href="tel:8889594513"
+              href="tel:(888) 908-7350"
               className="inline-flex items-center justify-center px-7 py-3.5 rounded-full font-bold text-white bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 shadow-lg shadow-emerald-500/20 transition-all"
             >
-              Check {providerName} Availability In Your Area
+              Call to get assistance to compare providers
             </a>
 
             <ul className="mt-8 space-y-4">
@@ -34,8 +34,8 @@ export default function ProviderWhyChoose({ providerName }) {
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                 </span>
-                <a href="tel:8889594513" className="font-semibold hover:text-emerald-600 transition-colors">
-                  (888) 959-4513
+                <a href="tel:(888) 908-7350" className="font-semibold hover:text-emerald-600 transition-colors">
+                  (888) 908-7350
                 </a>
               </li>
               <li className="flex items-center gap-3 text-slate-700">

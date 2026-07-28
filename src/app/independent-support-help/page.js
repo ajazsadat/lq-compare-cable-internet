@@ -23,8 +23,8 @@ export const metadata = {
     'Independent support-routing help. Speak with a human agent or use the automated support line. Not affiliated with any carrier.',
 };
 
-const PHONE_DISPLAY = '888-959-4513';
-const PHONE_TEL = 'tel:8889594513';
+const PHONE_DISPLAY = '(888) 908-7350';
+const PHONE_TEL = 'tel:(888) 908-7350';
 
 function PhoneButton() {
   return (

@@ -89,11 +89,14 @@ export default function FrontierPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#f8fafc] via-transparent to-transparent"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
+          <p className="text-lg md:text-xl font-semibold text-emerald-400 mb-3 drop-shadow-md">
+            Frontier Internet &amp; Cable Services
+          </p>
           <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 drop-shadow-lg">
             Compare <span className="text-emerald-500">Frontier</span> Plans With LQcomparecableinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
-            Compare high-speed internet plans with speeds up to 7,000 Mbps, depending on location, equipment, and network conditions.
+            Call to get assistance to compare providers. Compare high-speed internet plans with speeds up to 7,000 Mbps, depending on location, equipment, and network conditions.
           </p>
         </div>
       </section>
@@ -155,10 +158,10 @@ export default function FrontierPage() {
                 <p className="text-xs text-slate-500 mt-2">Taxes, fees & equipment extra</p>
                 
                 <a
-                  href="tel:8889594513"
+                  href="tel:(888) 908-7350"
                   className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-slate-900 bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg shadow-emerald-500/25 transition-all transform hover:-translate-y-1"
                 >
-                  Compare & Call (888) 959-4513
+                  Call to get assistance to compare providers — (888) 908-7350
                 </a>
                 <p className="text-xs text-slate-500 mt-4 text-center">
                   Price may require AutoPay & paperless billing where applicable. Taxes, fees & equipment extra. Pricing & availability vary by ZIP.
