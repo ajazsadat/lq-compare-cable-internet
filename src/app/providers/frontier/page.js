@@ -158,10 +158,10 @@ export default function FrontierPage() {
                 <p className="text-xs text-slate-500 mt-2">Taxes, fees & equipment extra</p>
                 
                 <a
-                  href="tel:(888) 908-7350"
+                  href="tel:(888) 959-4513"
                   className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-slate-900 bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg shadow-emerald-500/25 transition-all transform hover:-translate-y-1"
                 >
-                  Call to get assistance to compare providers — (888) 908-7350
+                  Call to get assistance to compare providers — (888) 959-4513
                 </a>
                 <p className="text-xs text-slate-500 mt-4 text-center">
                   Price may require AutoPay & paperless billing where applicable. Taxes, fees & equipment extra. Pricing & availability vary by ZIP.

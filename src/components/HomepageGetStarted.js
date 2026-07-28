@@ -74,8 +74,8 @@ export default function HomepageGetStarted() {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-5">Get Started</h2>
             <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-4">
               Call to get assistance to compare providers at{' '}
-              <a href="tel:(888) 908-7350" className="text-emerald-600 font-semibold italic hover:underline">
-                (888) 908-7350
+              <a href="tel:(888) 959-4513" className="text-emerald-600 font-semibold italic hover:underline">
+                (888) 959-4513
               </a>
               , or request a free, no-obligation quote to see available options in your area.
             </p>
@@ -87,7 +87,7 @@ export default function HomepageGetStarted() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="tel:(888) 908-7350"
+                  href="tel:(888) 959-4513"
                   className="inline-flex items-center gap-3 text-slate-800 font-semibold hover:text-emerald-600 transition-colors"
                 >
                   <span className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center shrink-0">
@@ -95,7 +95,7 @@ export default function HomepageGetStarted() {
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
                   </span>
-                  (888) 908-7350
+                  (888) 959-4513
                 </a>
               </li>
               <li>

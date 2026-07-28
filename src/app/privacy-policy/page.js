@@ -93,7 +93,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">Contact Us</h2>
           <p className="mb-4 font-light">If you have questions or wish to exercise your rights, please contact us:</p>
           <ul className="space-y-2 font-light text-slate-600">
-            <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> (888) 908-7350</li>
+            <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> (888) 959-4513</li>
             <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> info@lqcomparecableinternet.com</li>
             <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> 10333 Richmond Ave Ste 1000, Houston TX 77042</li>
           </ul>
