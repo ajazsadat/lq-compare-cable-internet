@@ -1,3 +1,5 @@
+import ContactForm from '@/components/ContactForm';
+
 export const metadata = {
   title: 'Contact Us | LQcomparecableinternet',
   description: 'Contact LQcomparecableinternet today to secure the finest TV and internet packages available in your region.',
@@ -12,7 +14,7 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Contact <span className="text-gradient">Us</span></h1>
           <p className="text-xl text-slate-600">
-            Have a question or need help finding the right plan? We're here for you.
+            Have a question or need help finding the right plan? We&apos;re here for you.
           </p>
         </div>
       </section>
@@ -27,7 +29,7 @@ export default function Contact() {
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6">Get In Touch</h2>
                 <p className="text-slate-600 mb-8">
-                  Whether you're looking for a new internet provider, a better TV package, or just want to see what's available in your area, our team is ready to assist you.
+                  Whether you&apos;re looking for a new internet provider, a better TV package, or just want to see what&apos;s available in your area, our team is ready to assist you.
                 </p>
               </div>
 
@@ -78,40 +80,9 @@ export default function Contact() {
               <div className="absolute top-0 right-0 -mr-4 -mt-4 w-24 h-24 rounded-full bg-emerald-500/10 blur-xl"></div>
               
               <h3 className="text-2xl font-bold text-slate-900 mb-6 relative z-10">Send us a message</h3>
-              <form className="space-y-6 relative z-10">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-slate-600 mb-2">Full Name</label>
-                  <input type="text" id="name" className="w-full bg-[#f8fafc] border border-slate-200 rounded-lg px-4 py-3 text-slate-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all" placeholder="John Doe" />
-                </div>
-                
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-600 mb-2">Email Address</label>
-                  <input type="email" id="email" className="w-full bg-[#f8fafc] border border-slate-200 rounded-lg px-4 py-3 text-slate-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all" placeholder="john@example.com" />
-                </div>
-
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-slate-600 mb-2">Phone Number</label>
-                  <input type="tel" id="phone" className="w-full bg-[#f8fafc] border border-slate-200 rounded-lg px-4 py-3 text-slate-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all" placeholder="(555) 123-4567" />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-600 mb-2">Message</label>
-                  <textarea id="message" rows="4" className="w-full bg-[#f8fafc] border border-slate-200 rounded-lg px-4 py-3 text-slate-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all resize-none" placeholder="How can we help you?"></textarea>
-                </div>
-
-                <div className="flex items-start mt-4 mb-6">
-                  <div className="flex items-center h-5">
-                    <input id="consent" type="checkbox" className="w-4 h-4 bg-[#f8fafc] border border-slate-200 rounded focus:ring-emerald-500 focus:ring-2" required />
-                  </div>
-                  <label htmlFor="consent" className="ml-3 text-xs text-slate-600 font-light leading-relaxed">
-                    I agree to the <a href="/terms-conditions" className="text-emerald-400 hover:underline">terms & conditions</a> and <a href="/privacy-policy" className="text-emerald-400 hover:underline">privacy policy</a> provided by Simply Activate Services. By providing my phone number, I agree to receive text messages and calls from Simply Activate Services. Consent is not a condition of purchase.
-                  </label>
-                </div>
-
-                <button type="button" className="w-full py-4 px-6 text-lg text-center font-bold rounded-lg text-slate-900 bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-[0_0_20px_rgba(6,182,212,0.3)] transition-all transform hover:-translate-y-1">
-                  Send Message
-                </button>
-              </form>
+              <div className="relative z-10">
+                <ContactForm source="Contact page" />
+              </div>
             </div>
 
           </div>
