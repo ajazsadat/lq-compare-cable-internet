@@ -32,12 +32,13 @@ export default function Header() {
   ];
 
   const providerLinks = [
-    { name: 'Xfinity', href: '/providers/xfinity' },
-    { name: 'Frontier', href: '/providers/frontier' },
-    { name: 'Windstream', href: '/providers/windstream' },
+    { name: 'Xfinity', href: '/xfinity-plans' },
+    { name: 'Frontier', href: '/frontier-plans' },
+    { name: 'Windstream', href: '/windstream-plans' },
   ];
 
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
+  const isProviderActive = providerLinks.some((link) => pathname === link.href || pathname.startsWith(`${link.href}/`));
 
   // Prevent hydration errors by not rendering UI that depends on window until mounted
   if (!mounted) {
@@ -85,7 +86,7 @@ export default function Header() {
               <button 
                 onClick={() => setIsProvidersOpen(!isProvidersOpen)}
                 className={`text-sm font-medium transition-colors hover:text-emerald-400 flex items-center ${
-                  pathname.includes('/providers') ? 'text-emerald-400' : 'text-slate-600'
+                  isProviderActive ? 'text-emerald-400' : 'text-slate-600'
                 }`}
               >
                 Providers
