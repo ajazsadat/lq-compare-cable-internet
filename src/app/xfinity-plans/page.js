@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
+import XfinityMobileSupportModal from '@/components/XfinityMobileSupportModal';
 
 export const metadata = {
   title: 'Xfinity TV & Internet Deals | LQcomparecableinternet',
@@ -67,6 +68,7 @@ export default function XfinityPage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#f8fafc]">
+      <XfinityMobileSupportModal />
       {/* Hero Section */}
       <section className="relative h-[40vh] md:h-[50vh] min-h-[400px] flex items-center justify-center border-b border-slate-200 overflow-hidden">
         <Image
