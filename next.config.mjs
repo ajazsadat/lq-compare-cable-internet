@@ -17,6 +17,11 @@ const nextConfig = {
         destination: '/windstream-plans',
         permanent: true,
       },
+      {
+        source: '/providers/spectrum',
+        destination: '/spectrum-plans',
+        permanent: true,
+      },
     ];
   },
 };
