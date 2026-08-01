@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
+import SpectrumFaq from '@/components/SpectrumFaq';
 
 export const metadata = {
   title: 'Spectrum Internet & Cable Plans | LQcomparecableinternet',
@@ -263,6 +264,7 @@ export default function SpectrumPage() {
       </section>
 
       <ProviderComparisonTable />
+      <SpectrumFaq />
       <ProviderWhyChoose providerName="Spectrum" />
     </div>
   );

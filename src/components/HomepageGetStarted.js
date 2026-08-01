@@ -306,8 +306,8 @@ export default function HomepageGetStarted() {
                   <a href="/privacy-policy" className="text-emerald-500 hover:underline">
                     privacy policy
                   </a>{' '}
-                  provided by Simply Activate Services. By providing my phone number, I agree to receive
-                  text messages and calls from Simply Activate Services. Consent is not a condition of
+                  provided by LQcomparecableinternet. By providing my phone number, I agree to receive
+                  text messages and calls from LQcomparecableinternet. Consent is not a condition of
                   purchase.
                 </label>
               </div>

@@ -82,7 +82,7 @@ export default function TermsConditions() {
           <ul className="space-y-2 font-light text-slate-600">
             <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> (888) 959-4513</li>
             <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> info@lqcomparecableinternet.com</li>
-            <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> 10333 Richmond Ave Ste 1000, Houston TX 77042</li>
+            <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> 5902 Newfoundland Ct, Spring, TX 77379</li>
           </ul>
         </section>
 

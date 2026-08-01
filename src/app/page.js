@@ -38,7 +38,7 @@ export default function Home() {
     },
     {
       q: "How is installation arranged once I select a plan?",
-      a: "Once you confirm your selection, we help coordinate the process with your chosen provider. Installation timelines vary by provider, location, and technician availability — your provider will confirm the exact schedule once your order is placed."
+      a: "Once you confirm your selection, your chosen provider handles scheduling and installation directly. Timelines vary by provider, location, and technician availability."
     },
     {
       q: "What is the next step?",
@@ -142,7 +142,7 @@ export default function Home() {
                 Find The Perfect TV & Internet Providers <span className="text-emerald-400">For Your Lifestyle</span>
               </h2>
               <p className="text-slate-600 text-lg mb-10 font-light leading-relaxed">
-                Searching for the best connectivity options nearby? Compare top-rated packages and unlock exclusive local deals. LQcomparecableinternet simplifies the process from comparison to final enrollment.
+                Searching for the best connectivity options nearby? Compare top-rated packages and unlock exclusive local deals. LQcomparecableinternet simplifies the process of comparing your options before you decide.
               </p>
               
               <h3 className="text-2xl font-bold text-slate-900 mb-6">Why Choose LQcomparecableinternet?</h3>
@@ -156,7 +156,7 @@ export default function Home() {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-slate-900">Unified Comparison Hub</h4>
-                    <p className="mt-1 text-slate-600 font-light">Evaluate local internet carriers, discover hidden deals, and enroll seamlessly through a single platform.</p>
+                    <p className="mt-1 text-slate-600 font-light">Evaluate local internet carriers, discover hidden deals, and get connected with a provider through a single call.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -178,7 +178,7 @@ export default function Home() {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-slate-900">Dedicated Expert Support</h4>
-                    <p className="mt-1 text-slate-600 font-light">Overwhelmed by choices? Our dedicated specialists will break down the details and walk you through the entire signup process.</p>
+                    <p className="mt-1 text-slate-600 font-light">Overwhelmed by choices? Our dedicated specialists will break down the details and help you choose the right provider for your needs.</p>
                   </div>
                 </li>
               </ul>

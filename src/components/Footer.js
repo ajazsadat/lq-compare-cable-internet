@@ -74,7 +74,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} LQcomparecableinternet. All rights reserved.
           </p>
           <p className="text-xs text-slate-500 mt-4 md:mt-0 max-w-2xl text-right md:text-left">
-            LQcomparecableinternet is an independent comparison platform — not Verizon,Spectrum,Xfinity Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+            LQcomparecableinternet is an independent comparison platform — not Verizon, Spectrum, Xfinity, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
           </p>
         </div>
       </div>
