@@ -46,7 +46,7 @@ export default function Header() {
     return (
       <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#f8fafc]/90 backdrop-blur-md border-b border-slate-200">
         <div className="bg-emerald-900/30 text-slate-600 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-slate-200">
-          LQcomparecableinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+          LQcomparecableinternet is an independent comparison platform — not Verizon, Spectrum, Xfinity, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
         </div>
         <div className="h-20"></div>
       </header>
@@ -56,7 +56,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#f8fafc]/90 backdrop-blur-md border-b border-slate-200">
       <div className="bg-emerald-900/30 text-slate-600 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-slate-200 leading-snug">
-        LQcomparecableinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+        LQcomparecableinternet is an independent comparison platform — not Verizon, Spectrum, Xfinity, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
