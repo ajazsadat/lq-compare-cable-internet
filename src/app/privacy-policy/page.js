@@ -83,7 +83,14 @@ export default function PrivacyPolicy() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-4">8. Changes to This Policy</h2>
+          <h2 className="text-2xl font-semibold text-slate-900 mb-4">8. SMS &amp; Text Messaging</h2>
+          <p className="mb-4 leading-relaxed font-light">
+            By providing your phone number, you consent to receive text messages and calls from LQcomparecableinternet and its service partners regarding your inquiry. Message and data rates may apply. Consent is not a condition of purchase. You can opt out at any time by replying STOP.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-slate-900 mb-4">9. Changes to This Policy</h2>
           <p className="mb-4 leading-relaxed font-light">
             We may update this policy periodically. The "Effective Date" at the top will indicate changes.
           </p>
@@ -95,7 +102,7 @@ export default function PrivacyPolicy() {
           <ul className="space-y-2 font-light text-slate-600">
             <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> (888) 959-4513</li>
             <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> info@lqcomparecableinternet.com</li>
-            <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> 10333 Richmond Ave Ste 1000, Houston TX 77042</li>
+            <li className="flex items-center"><span className="text-emerald-400 mr-2">✅</span> 5902 Newfoundland Ct, Spring, TX 77379</li>
           </ul>
         </section>
 
