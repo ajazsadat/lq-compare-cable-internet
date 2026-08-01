@@ -94,27 +94,63 @@ export default function SpectrumPage() {
 
       {/* Speak With A Live Agent */}
       <section className="border-b border-slate-200 bg-slate-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-center">
-          <a
-            href="/independent-support-help"
-            className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full font-semibold text-slate-900 bg-gradient-to-r from-emerald-400 to-emerald-500 hover:brightness-110 transition"
-          >
-            <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-            </svg>
-            Speak With A Live Agent
-          </a>
-          <a
-            href="tel:(888) 959-4513"
-            className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full font-semibold text-white border border-white/25 bg-white/5 hover:bg-white/10 transition"
-          >
-            <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-            </svg>
-            Call to get assistance — (888) 959-4513
-          </a>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center gap-4">
+          <div className="w-full flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-center">
+            <a
+              href="/independent-support-help"
+              className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full font-semibold text-slate-900 bg-gradient-to-r from-emerald-400 to-emerald-500 hover:brightness-110 transition"
+            >
+              <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+              Speak With A Live Agent
+            </a>
+            <a
+              href="tel:(888) 959-4513"
+              className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full font-semibold text-white border border-white/25 bg-white/5 hover:bg-white/10 transition"
+            >
+              <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              Call to get assistance — (888) 959-4513
+            </a>
+          </div>
+          <p className="cta-disclaimer text-center text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
+            LQcomparecableinternet operates as an independent comparison resource — we don&apos;t manage
+            or sell Spectrum accounts. Everything on this page is for general guidance only.
+          </p>
         </div>
       </section>
+
+      {/* Non-navigating topic tabs */}
+      <nav
+        aria-label="Spectrum topics"
+        className="border-b border-slate-200 bg-white"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ul className="flex flex-wrap justify-center sm:justify-start gap-1 sm:gap-0" role="tablist">
+            {['About Spectrum', 'Internet', 'TV', 'Customer Service'].map((tab) => {
+              const selected = tab === 'About Spectrum';
+              return (
+                <li key={tab} role="presentation">
+                  <span
+                    role="tab"
+                    aria-selected={selected}
+                    tabIndex={-1}
+                    className={`inline-flex cursor-pointer select-none px-4 sm:px-5 py-3.5 text-sm sm:text-base font-semibold border-b-2 transition-colors ${
+                      selected
+                        ? 'border-emerald-500 text-emerald-600'
+                        : 'border-transparent text-slate-500 hover:text-slate-800 hover:border-slate-300'
+                    }`}
+                  >
+                    {tab}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </nav>
 
       {/* Main Content */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">

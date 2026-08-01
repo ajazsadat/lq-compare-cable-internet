@@ -34,8 +34,8 @@ export default function Header() {
   const providerLinks = [
     { name: 'Xfinity', href: '/xfinity-plans' },
     { name: 'Spectrum', href: '/spectrum-plans' },
-    { name: 'Frontier', href: '/frontier-plans' },
-    { name: 'Windstream', href: '/windstream-plans' },
+    // { name: 'Frontier', href: '/frontier-plans' },
+    // { name: 'Windstream', href: '/windstream-plans' },
   ];
 
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
