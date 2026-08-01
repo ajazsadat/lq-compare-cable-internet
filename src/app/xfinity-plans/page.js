@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
+import XfinityFaq from '@/components/XfinityFaq';
 
 export const metadata = {
   title: 'Xfinity TV & Internet Deals | LQcomparecableinternet',
@@ -204,6 +205,7 @@ export default function XfinityPage() {
       </section>
 
       <ProviderComparisonTable />
+      <XfinityFaq />
       <ProviderWhyChoose providerName="Xfinity" />
     </div>
   );

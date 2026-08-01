@@ -14,7 +14,7 @@ export default function ProviderWhyChoose({ providerName }) {
               Why Choose <span className="text-emerald-500">LQcomparecableinternet</span>?
             </h2>
             <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-8">
-              Getting {providerName} Internet &amp; Cable Services is easier with LQcomparecableinternet.
+              {`Getting ${providerName} Internet & Cable Services is easier with LQcomparecableinternet. `}
               Call to get assistance to compare providers, understand features and pricing, and select
               the option that works best for your home or business. Our team guides you every step of
               the way — clear, reliable, and hassle-free.
