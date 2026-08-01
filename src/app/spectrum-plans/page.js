@@ -2,6 +2,7 @@ import Image from 'next/image';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 import SpectrumFaq from '@/components/SpectrumFaq';
+import SpectrumTopicTabs from '@/components/SpectrumTopicTabs';
 
 export const metadata = {
   title: 'Spectrum Internet & Cable Plans | LQcomparecableinternet',
@@ -122,35 +123,7 @@ export default function SpectrumPage() {
         </div>
       </section>
 
-      {/* Non-navigating topic tabs */}
-      <nav
-        aria-label="Spectrum topics"
-        className="border-b border-slate-200 bg-white"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ul className="flex flex-wrap justify-center sm:justify-start gap-1 sm:gap-0" role="tablist">
-            {['About Spectrum', 'Internet', 'TV', 'Customer Service'].map((tab) => {
-              const selected = tab === 'About Spectrum';
-              return (
-                <li key={tab} role="presentation">
-                  <span
-                    role="tab"
-                    aria-selected={selected}
-                    tabIndex={-1}
-                    className={`inline-flex cursor-pointer select-none px-4 sm:px-5 py-3.5 text-sm sm:text-base font-semibold border-b-2 transition-colors ${
-                      selected
-                        ? 'border-emerald-500 text-emerald-600'
-                        : 'border-transparent text-slate-500 hover:text-slate-800 hover:border-slate-300'
-                    }`}
-                  >
-                    {tab}
-                  </span>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </nav>
+      <SpectrumTopicTabs />
 
       {/* Main Content */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
