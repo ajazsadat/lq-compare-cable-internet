@@ -47,23 +47,27 @@ export default function SpectrumPage() {
   const services = [
     {
       title: 'High-Speed Internet',
+      icon: '/images/spectrum-services/high-speed-internet.png',
       description:
         'Reliable internet with speeds starting around 100 Mbps, capable of supporting streaming, gaming, smart home devices, and remote work. Higher-speed tiers are available in select areas for households with heavy usage.',
     },
     {
       title: 'Cable TV',
+      icon: '/images/spectrum-services/cable-tv.png',
       description:
-        'A wide selection of channels, on-demand shows, and entertainment packages. Flexible bundles help viewers pick content that matches their lifestyle.',
+        'A wide selection of channels, on-demand shows, and entertainment packages for every taste. Flexible bundles allow viewers to pick content that matches their lifestyle.',
     },
     {
       title: 'Home Phone',
+      icon: '/images/spectrum-services/home-phone.png',
       description:
-        'Nationwide calling, voicemail, and dependable connections make Spectrum’s phone service a practical option for families who prefer a traditional home line.',
+        'Nationwide calling, voicemail, and dependable connections make Spectrum’s phone service a practical option for families and individuals who prefer a traditional home line.',
     },
     {
       title: 'Mobile Services',
+      icon: '/images/spectrum-services/mobile-services.png',
       description:
-        'Spectrum Mobile leverages advanced wireless technology for fast 5G connectivity. Introductory promotions may offer added savings for new customers in select areas.',
+        'Spectrum Mobile leverages advanced wireless technology to provide fast and reliable 5G connectivity. Introductory promotions may offer added savings for new customers in select areas.',
     },
   ];
 
@@ -231,30 +235,43 @@ export default function SpectrumPage() {
           ))}
         </div>
 
-        {/* Services at a Glance */}
-        <div className="mb-16">
+      </section>
+
+      <ProviderComparisonTable />
+
+      {/* Spectrum Services at a Glance */}
+      <section className="w-full bg-[#f8fafc] border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
           <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">
             Spectrum Services at a Glance
           </h2>
           <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10 text-sm">
             Spectrum offers a variety of services to meet everyday household needs. Here are four key
-            areas we highlight.
+            areas we highlight
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {services.map((service) => (
               <div
                 key={service.title}
-                className="bg-white rounded-2xl p-6 border border-slate-200 shadow-lg"
+                className="bg-white rounded-2xl p-6 md:p-7 border border-slate-200 shadow-lg flex gap-4 items-start"
               >
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{service.title}</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">{service.description}</p>
+                <Image
+                  src={service.icon}
+                  alt=""
+                  width={56}
+                  height={56}
+                  className="w-12 h-12 md:w-14 md:h-14 object-contain shrink-0"
+                />
+                <div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">{service.title}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed">{service.description}</p>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <ProviderComparisonTable />
       <SpectrumFaq />
       <ProviderWhyChoose providerName="Spectrum" />
     </div>
