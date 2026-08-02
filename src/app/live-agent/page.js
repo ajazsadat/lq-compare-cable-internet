@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Live Agent Help | LQcomparecableinternet',
   description:
-    'Connect with LQcomparecableinternet — speak with a human agent or use the automated support line for independent internet plan comparison and assistance.',
+    'Speak with a live agent from LQcomparecableinternet. Call now and we will walk you through your options for comparing internet and TV plans.',
 };
 
 const PHONE_DISPLAY = '(888) 959-4513';
@@ -31,10 +31,12 @@ export default function LiveAgentPage() {
     <div className="bg-[#071018] min-h-screen flex flex-col text-[#d6dde8]">
       <section className="flex-grow flex items-center py-16 md:py-24">
         <div className="w-full max-w-4xl mx-auto px-4 sm:px-6">
-          <h1 className="text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-10 md:mb-14">
-            How would you like to connect for{' '}
-            <span className="text-emerald-300">Internet Services and Assistance?</span>
+          <h1 className="text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4">
+            Speak with a <span className="text-emerald-300">live agent</span>
           </h1>
+          <p className="text-center text-base sm:text-lg text-[#d6dde8]/80 font-light max-w-2xl mx-auto mb-10 md:mb-14">
+            Call now and we&apos;ll walk you through your options.
+          </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-8">
             <a
