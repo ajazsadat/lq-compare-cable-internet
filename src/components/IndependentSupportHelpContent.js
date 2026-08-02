@@ -7,16 +7,16 @@ const PHONE_TEL = 'tel:(888) 959-4513';
 export default function IndependentSupportHelpContent({ className = '' }) {
   return (
     <div className={`flex flex-col min-h-[80vh] bg-[#f8fafc] ${className}`.trim()}>
-      <section className="relative py-16 md:py-24 bg-gradient-to-b from-[#f1f5f9] to-[#f8fafc] border-b border-slate-200">
+      <section className="relative py-6 sm:py-7 md:py-8 bg-gradient-to-b from-[#f1f5f9] to-[#f8fafc] border-b border-slate-200">
         <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent" />
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
             Call now and we&apos;ll walk you through your options.
           </h1>
         </div>
       </section>
 
-      <section className="py-14 md:py-20 flex-grow">
+      <section className="py-8 sm:py-10 md:py-12 flex-grow">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-12">
             <a
