@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const PHONE_DISPLAY = '(888) 959-4513';
@@ -27,22 +28,13 @@ export default function IndependentSupportHelpContent({ className = '' }) {
               href={PHONE_TEL}
               className="group flex flex-col items-center text-center rounded-3xl border border-slate-200 bg-white p-8 md:p-10 shadow-lg hover:border-emerald-500/40 hover:shadow-xl transition"
             >
-              <span className="w-16 h-16 rounded-full bg-emerald-500/10 flex items-center justify-center mb-5 group-hover:bg-emerald-500/20 transition">
-                <svg
-                  className="w-8 h-8 text-emerald-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                  />
-                </svg>
-              </span>
+              <Image
+                src="/images/live-agent-ref/human.png"
+                alt=""
+                width={96}
+                height={96}
+                className="w-20 h-20 md:w-24 md:h-24 object-contain mb-5"
+              />
               <h2 className="text-2xl font-bold text-slate-900 mb-3">Speak With A Live Agent</h2>
               <p className="text-slate-600 font-light mb-6 leading-relaxed">
                 Call now and we&apos;ll walk you through your options.
