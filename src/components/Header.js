@@ -41,12 +41,25 @@ export default function Header() {
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
   const isProviderActive = providerLinks.some((link) => pathname === link.href || pathname.startsWith(`${link.href}/`));
 
+  const defaultDisclaimer =
+    'Jari & Kinza Corporation, operating LQcomparecableinternet.com — helps you compare top internet and TV plans from leading and trusted providers available in your area.';
+  const spectrumDisclaimer =
+    'LQcomparecableinternet is an independent comparison platform — not Spectrum, Charter, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.';
+  const xfinityDisclaimer =
+    'LQcomparecableinternet is an independent comparison platform — not Xfinity, Comcast, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.';
+
+  const headerDisclaimer = pathname.startsWith('/spectrum-plans')
+    ? spectrumDisclaimer
+    : pathname.startsWith('/xfinity-plans')
+      ? xfinityDisclaimer
+      : defaultDisclaimer;
+
   // Prevent hydration errors by not rendering UI that depends on window until mounted
   if (!mounted) {
     return (
       <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#f8fafc]/90 backdrop-blur-md border-b border-slate-200">
-        <div className="bg-emerald-900/30 text-slate-600 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-slate-200">
-          LQcomparecableinternet is an independent comparison platform — not Verizon, Spectrum, Xfinity, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+        <div className="bg-emerald-900/30 text-slate-600 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-slate-200 leading-snug">
+          {headerDisclaimer}
         </div>
         <div className="h-20"></div>
       </header>
@@ -56,7 +69,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#f8fafc]/90 backdrop-blur-md border-b border-slate-200">
       <div className="bg-emerald-900/30 text-slate-600 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-slate-200 leading-snug">
-        LQcomparecableinternet is an independent comparison platform — not Verizon, Spectrum, Xfinity, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+        {headerDisclaimer}
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
