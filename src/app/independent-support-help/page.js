@@ -3,7 +3,7 @@ import IndependentSupportHelpContent from '@/components/IndependentSupportHelpCo
 export const metadata = {
   title: 'Independent Support Help | LQcomparecableinternet',
   description:
-    'Independent support-routing help. Speak with a human agent or use the automated support line. Not affiliated with any carrier.',
+    'Get help comparing internet and TV providers. Speak with a live agent or send us a message. Independent comparison resource — not affiliated with any carrier.',
 };
 
 export default function IndependentSupportHelpPage() {

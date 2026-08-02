@@ -1,100 +1,95 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import { Poppins, Montserrat } from 'next/font/google';
-import styles from './IndependentSupportHelp.module.css';
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['700'],
-  variable: '--font-ish-poppins',
-  display: 'swap',
-});
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['600'],
-  variable: '--font-ish-montserrat',
-  display: 'swap',
-});
 
 const PHONE_DISPLAY = '(888) 959-4513';
 const PHONE_TEL = 'tel:(888) 959-4513';
 
-function PhoneButton() {
-  return (
-    <span className={styles.phoneBtn}>
-      <svg className={styles.phoneIcon} viewBox="0 0 50 50" fill="currentColor" aria-hidden="true">
-        <path d="M14.2 3.5c1-.4 2.1 0 2.7.9l3.3 5.2c.6.9.5 2.1-.2 2.9l-2.2 2.4c-.3.3-.3.8 0 1.2 1.5 2.4 3.5 4.5 5.9 6.1.4.3.9.2 1.2-.1l2.5-2.1c.8-.7 2-.8 2.9-.2l5.3 3.2c.9.6 1.3 1.7.9 2.7l-1.8 4.3c-.4 1-1.4 1.6-2.5 1.5C19.3 30.6 8.1 19.5 7.2 6.6c-.1-1.1.5-2.1 1.5-2.5l5.5-.6z" />
-        <path
-          d="M30.5 6.5c6.2 1.4 11.1 6.3 12.5 12.5M30.5 13c3.7 1 6.6 3.9 7.6 7.6M30.5 19.2c1.5.5 2.7 1.7 3.2 3.2"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.2"
-          strokeLinecap="round"
-        />
-      </svg>
-      <span className={styles.phoneNumber}>{PHONE_DISPLAY}</span>
-    </span>
-  );
-}
-
 export default function IndependentSupportHelpContent({ className = '' }) {
   return (
-    <div className={`${poppins.variable} ${montserrat.variable} ${className}`.trim()}>
-      <div className={styles.page}>
-        <div className={styles.inner}>
-          <h1 className={styles.heading}>
-            How would you like to connect for{' '}
-            <span className={styles.headingAccent}>Internet Services and Assistance?</span>
+    <div className={`flex flex-col min-h-[80vh] bg-[#f8fafc] ${className}`.trim()}>
+      <section className="relative py-16 md:py-24 bg-gradient-to-b from-[#f1f5f9] to-[#f8fafc] border-b border-slate-200">
+        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent" />
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
+            How Would You Like To Get Help{' '}
+            <span className="text-emerald-500">Comparing Providers?</span>
           </h1>
+          <p className="text-lg text-slate-600 font-light max-w-2xl mx-auto">
+            Choose the option that works best for you — we&apos;re here to help you compare plans in your
+            area.
+          </p>
+        </div>
+      </section>
 
-          <Image
-            src="/images/live-agent-ref/accent.png"
-            alt=""
-            width={113}
-            height={9}
-            className={styles.accentBar}
-          />
-
-          <div className={styles.cards}>
-            <a href={PHONE_TEL} className={`${styles.card} ${styles.cardHuman}`}>
-              <Image
-                src="/images/live-agent-ref/human.png"
-                alt=""
-                width={218}
-                height={216}
-                className={styles.cardIcon}
-              />
-              <h2 className={styles.cardTitle}>Speak With A Human Agent</h2>
-              <hr className={styles.divider} />
-              <PhoneButton />
+      <section className="py-14 md:py-20 flex-grow">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-12">
+            <a
+              href={PHONE_TEL}
+              className="group flex flex-col items-center text-center rounded-3xl border border-slate-200 bg-white p-8 md:p-10 shadow-lg hover:border-emerald-500/40 hover:shadow-xl transition"
+            >
+              <span className="w-16 h-16 rounded-full bg-emerald-500/10 flex items-center justify-center mb-5 group-hover:bg-emerald-500/20 transition">
+                <svg
+                  className="w-8 h-8 text-emerald-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+              </span>
+              <h2 className="text-2xl font-bold text-slate-900 mb-3">Speak With A Live Agent</h2>
+              <p className="text-slate-600 font-light mb-6 leading-relaxed">
+                Call now and we&apos;ll walk you through your options.
+              </p>
+              <span className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white bg-gradient-to-r from-emerald-600 to-emerald-500 group-hover:from-emerald-500 group-hover:to-emerald-400 transition">
+                {PHONE_DISPLAY}
+              </span>
             </a>
 
-            <a href={PHONE_TEL} className={`${styles.card} ${styles.cardAuto}`}>
-              <Image
-                src="/images/live-agent-ref/auto.png"
-                alt=""
-                width={119}
-                height={119}
-                className={styles.cardIcon}
-              />
-              <h2 className={styles.cardTitle}>Automated Support Line</h2>
-              <hr className={styles.divider} />
-              <PhoneButton />
-            </a>
+            <Link
+              href="/contact"
+              className="group flex flex-col items-center text-center rounded-3xl border border-slate-200 bg-white p-8 md:p-10 shadow-lg hover:border-emerald-500/40 hover:shadow-xl transition"
+            >
+              <span className="w-16 h-16 rounded-full bg-emerald-500/10 flex items-center justify-center mb-5 group-hover:bg-emerald-500/20 transition">
+                <svg
+                  className="w-8 h-8 text-emerald-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+              </span>
+              <h2 className="text-2xl font-bold text-slate-900 mb-3">Send Us a Message</h2>
+              <p className="text-slate-600 font-light mb-6 leading-relaxed">
+                Prefer not to call? Fill out our contact form and we&apos;ll follow up.
+              </p>
+              <span className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-emerald-700 bg-emerald-500/10 border border-emerald-500/30 group-hover:bg-emerald-500/20 transition">
+                Go to Contact Form
+              </span>
+            </Link>
           </div>
 
-          <Link href="/" className={styles.brandLogo}>
-            <Image
-              src="/images/logo.png"
-              alt="LQcomparecableinternet logo"
-              width={120}
-              height={120}
-              className={styles.brandLogoImg}
-            />
-          </Link>
+          <p className="page-disclaimer text-center text-sm text-slate-500 font-light leading-relaxed max-w-3xl mx-auto">
+            LQcomparecableinternet is an independent comparison resource. We do not provide internet,
+            TV, or phone services directly, and we are not affiliated with Spectrum, Xfinity, AT&amp;T,
+            Verizon, or any other carrier. For billing or existing account support, please contact your
+            provider directly.
+          </p>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
