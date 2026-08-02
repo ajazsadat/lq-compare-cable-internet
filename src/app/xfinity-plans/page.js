@@ -185,23 +185,6 @@ export default function XfinityPage() {
             </div>
           ))}
         </div>
-
-        <div className="mt-16 rounded-2xl border border-emerald-500/30 bg-white p-7 md:p-9 flex flex-col md:flex-row md:items-center md:justify-between gap-6 shadow-lg">
-          <div>
-            <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-2">
-              Need Xfinity/Comcast support help?
-            </h2>
-            <p className="text-slate-600 text-sm leading-relaxed max-w-2xl">
-              Get independent support routing — or compare new plan options. Not affiliated with Xfinity or Comcast.
-            </p>
-          </div>
-          <a
-            href="/independent-support-help"
-            className="inline-flex shrink-0 items-center justify-center px-6 py-3 rounded-full font-semibold text-white bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 transition"
-          >
-            Visit Independent Support Help
-          </a>
-        </div>
       </section>
 
       <ProviderComparisonTable />
