@@ -42,7 +42,7 @@ export default function Header() {
   const isProviderActive = providerLinks.some((link) => pathname === link.href || pathname.startsWith(`${link.href}/`));
 
   const defaultDisclaimer =
-    'Jari & Kinza Corporation, operating LQcomparecableinternet.com — helps you compare top internet and TV plans from leading and trusted providers available in your area.';
+    'Lean and Quality Circle llc, operating LQcomparecableinternet.com — helps you compare top internet and TV plans from leading and trusted providers available in your area.';
   const spectrumDisclaimer =
     'LQcomparecableinternet is an independent comparison platform — not Spectrum, Charter, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.';
   const xfinityDisclaimer =
