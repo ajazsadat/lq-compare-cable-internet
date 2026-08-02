@@ -14,7 +14,7 @@ export default function TermsConditions() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">Terms of Service</h2>
           <p className="mb-4 leading-relaxed font-light">
-            Welcome to lqcomparecableinternet.com, operated by LQcomparecableinternet. By accessing or using our website and services, you agree to these Terms of Service. Please read them carefully.
+            Welcome to lqcomparecableinternet.com, operated by Jari &amp; Kinza Corporation. By accessing or using our website and services, you agree to these Terms of Service. Please read them carefully.
           </p>
         </section>
 
@@ -73,7 +73,7 @@ export default function TermsConditions() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">8. Governing Law</h2>
           <p className="mb-4 leading-relaxed font-light">
-            These Terms are governed by and construed in accordance with the laws of the United States and the state in which LQcomparecableinternet is registered, without regard to conflict of law principles.
+            These Terms are governed by and construed in accordance with the laws of the United States and the state in which Jari &amp; Kinza Corporation is registered, without regard to conflict of law principles.
           </p>
         </section>
 
