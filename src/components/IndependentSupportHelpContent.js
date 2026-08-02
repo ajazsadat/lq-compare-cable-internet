@@ -29,7 +29,7 @@ export default function IndependentSupportHelpContent({ className = '' }) {
               className="group flex flex-col items-center text-center rounded-3xl border border-slate-200 bg-white p-8 md:p-10 shadow-lg hover:border-emerald-500/40 hover:shadow-xl transition"
             >
               <Image
-                src="/images/human-agent-icon.png"
+                src="/images/live-agent-ref/human.png"
                 alt=""
                 width={96}
                 height={96}
