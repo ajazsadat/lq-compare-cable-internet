@@ -11,12 +11,10 @@ export default function IndependentSupportHelpContent({ className = '' }) {
         <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent" />
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
-            How Would You Like To Get Help{' '}
-            <span className="text-emerald-500">Comparing Providers?</span>
+            Speak with a <span className="text-emerald-500">live agent</span>
           </h1>
           <p className="text-lg text-slate-600 font-light max-w-2xl mx-auto">
-            Choose the option that works best for you — we&apos;re here to help you compare plans in your
-            area.
+            Call now and we&apos;ll walk you through your options.
           </p>
         </div>
       </section>
