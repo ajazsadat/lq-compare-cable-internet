@@ -1,9 +1,9 @@
 import IndependentSupportHelpContent from '@/components/IndependentSupportHelpContent';
 
 export const metadata = {
-  title: 'Live Agent Help | LQcomparecableinternet',
+  title: 'Comparison Specialist | LQcomparecableinternet',
   description:
-    "Call now and we'll walk you through your options with LQcomparecableinternet live agent help for comparing internet and TV plans.",
+    "Call now and we'll walk you through your options with a LQcomparecableinternet comparison specialist for internet and TV plans.",
 };
 
 export default function LiveAgentPage() {

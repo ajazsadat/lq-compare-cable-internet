@@ -30,7 +30,7 @@ export default function IndependentSupportHelpContent({ className = '' }) {
                 height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain mb-5"
               />
-              <h2 className="text-2xl font-bold text-slate-900 mb-3">Speak With A Live Agent</h2>
+              <h2 className="text-2xl font-bold text-slate-900 mb-3">Speak With A Comparison Specialist</h2>
               <p className="text-slate-600 font-light mb-6 leading-relaxed">
                 Call now and we&apos;ll walk you through your options.
               </p>
@@ -72,7 +72,7 @@ export default function IndependentSupportHelpContent({ className = '' }) {
           <p className="page-disclaimer text-center text-sm text-slate-500 font-light leading-relaxed max-w-3xl mx-auto">
             LQcomparecableinternet is an independent comparison resource. We do not provide internet,
             TV, or phone services directly, and we are not affiliated with Spectrum, Xfinity, AT&amp;T,
-            Verizon, or any other carrier. For billing or existing account support, please contact your
+            Verizon, or any other carrier. For billing or existing account questions, please contact your
             provider directly.
           </p>
         </div>

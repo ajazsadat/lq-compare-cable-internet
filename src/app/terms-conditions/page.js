@@ -28,7 +28,7 @@ export default function TermsConditions() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">2. Services Description</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We provide plan comparison information and order facilitation services for cable, internet, phone, and mobile services as an independent comparison and referral service. Availability may vary by service provider and location. All actual service provision, pricing, promotions, billing, installation, and customer support are handled directly by the underlying service providers. We do not guarantee service availability, pricing, speeds, or promotional terms.
+            We provide plan comparison information and order facilitation services for cable, internet, phone, and mobile services as an independent comparison and referral service. Availability may vary by service provider and location. All actual service provision, pricing, promotions, billing, installation, and account management are handled directly by the underlying service providers. We do not guarantee service availability, pricing, speeds, or promotional terms.
           </p>
         </section>
 
@@ -36,7 +36,7 @@ export default function TermsConditions() {
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">3. User Responsibilities</h2>
           <p className="mb-2 font-light">You agree to:</p>
           <ul className="list-disc pl-5 space-y-2 font-light text-slate-600 mb-4">
-            <li>Provide accurate and complete information (such as name, ZIP code, and contact details) when requesting service availability or assistance.</li>
+            <li>Provide accurate and complete information (such as name, ZIP code, and contact details) when requesting service availability or a plan comparison.</li>
             <li>Use our services in a lawful and ethical manner.</li>
             <li>Not attempt to disrupt, damage, or interfere with website functionality.</li>
           </ul>

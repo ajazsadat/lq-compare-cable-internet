@@ -14,7 +14,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">About <span className="text-gradient">LQcomparecableinternet</span></h1>
           <p className="text-xl text-slate-600">
-            Our team is committed to helping you discover the most reliable TV and internet packages in your neighborhood, with full transparency.
+            Our team is committed to showing you how to compare the most reliable TV and internet packages in your neighborhood, with full transparency.
           </p>
         </div>
       </section>
@@ -61,7 +61,7 @@ export default function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-emerald-600/20 to-emerald-500/20 rounded-3xl blur-2xl transform rotate-3"></div>
               <div className="bg-[#ffffff] border border-slate-200 rounded-3xl p-10 relative z-10 shadow-2xl">
-                <h3 className="text-2xl font-bold text-slate-900 mb-6">Need Help Deciding?</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-6">Ready to Compare?</h3>
                 <p className="text-slate-600 mb-8">
                   Our experts are available to walk you through the options in your specific zip code and find the perfect match for your household's needs.
                 </p>
