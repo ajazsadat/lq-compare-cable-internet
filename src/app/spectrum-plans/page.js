@@ -91,13 +91,13 @@ export default function SpectrumPage() {
             Compare <span className="text-emerald-400">Spectrum</span> Plans With LQcomparecableinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
-            Call to get assistance to compare providers. Spectrum delivers reliable TV, phone, and
-            fiber-powered internet plans across many U.S. markets.
+            Call to compare providers and find the right Spectrum plan for your area. Spectrum
+            delivers reliable TV, phone, and fiber-powered internet plans across many U.S. markets.
           </p>
         </div>
       </section>
 
-      {/* Speak With A Live Agent */}
+      {/* Speak With A Comparison Specialist */}
       <section className="border-b border-slate-200 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center gap-4">
           <div className="w-full flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-center">
@@ -108,7 +108,7 @@ export default function SpectrumPage() {
               <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
-              Speak With A Live Agent
+              Speak With A Comparison Specialist
             </a>
             <a
               href="tel:(888) 959-4513"
@@ -117,7 +117,7 @@ export default function SpectrumPage() {
               <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Call to get assistance — (888) 959-4513
+              See Local Provider Options — (888) 959-4513
             </a>
           </div>
           <p className="cta-disclaimer text-center text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
@@ -149,7 +149,8 @@ export default function SpectrumPage() {
             <div className="bg-[#ffffff] p-4 rounded-xl border border-slate-200 flex items-start">
               <span className="text-emerald-500 mr-3 text-xl">✅</span>
               <span className="text-slate-600 text-sm">
-                Accessible Spectrum customer support across multiple help channels
+                Provider Information Access — We help you find contact details and information about
+                Spectrum&apos;s official support channels
               </span>
             </div>
             <div className="bg-[#ffffff] p-4 rounded-xl border border-slate-200 flex items-start">
@@ -224,7 +225,7 @@ export default function SpectrumPage() {
                   href="tel:(888) 959-4513"
                   className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-slate-900 bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg shadow-emerald-500/25 transition-all transform hover:-translate-y-1"
                 >
-                  Call to get assistance to compare providers — (888) 959-4513
+                  Call For Details — (888) 959-4513
                 </a>
                 <p className="text-xs text-slate-500 mt-4 text-center">
                   Offers, availability, speeds, and pricing vary by ZIP. We are an independent
@@ -273,7 +274,12 @@ export default function SpectrumPage() {
       </section>
 
       <SpectrumFaq />
-      <ProviderWhyChoose providerName="Spectrum" />
+      <ProviderWhyChoose
+        providerName="Spectrum"
+        introLeadText="Comparing Internet & Cable Options is easier with LQcomparecableinternet."
+        callCtaLabel="Call to compare providers and plans."
+        introActionText="Call to compare providers and plans, understand features and pricing, and select the option that works best for your home or business."
+      />
     </div>
   );
 }

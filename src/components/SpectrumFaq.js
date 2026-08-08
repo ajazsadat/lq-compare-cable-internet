@@ -8,7 +8,7 @@ const faqs = [
     a: "No. We operate independently of Spectrum, Charter, and every other provider featured on this site. We're a comparison resource, not a branch of any carrier.",
   },
   {
-    q: 'Where do I go if I need help with my existing Spectrum service or bill?',
+    q: 'Where do I go for questions about my existing Spectrum service or bill?',
     a: "That has to go through Spectrum directly — we don't have access to customer accounts. We can point you to Spectrum's official contact info and, if you're open to it, show you what else is available in your area.",
   },
   {
