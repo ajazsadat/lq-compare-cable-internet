@@ -69,12 +69,23 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="mt-12 border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-slate-600">
-            &copy; {new Date().getFullYear()} LQcomparecableinternet. All rights reserved.
-          </p>
-          <p className="text-xs text-slate-500 mt-4 md:mt-0 max-w-2xl text-right md:text-left">
+        <div className="mt-12 border-t border-slate-200 pt-8">
+          <p className="text-xs text-slate-500 max-w-3xl">
             LQcomparecableinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-8 bg-emerald-600">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col sm:flex-row justify-between items-center gap-2">
+          <Link
+            href="/#disclaimer"
+            className="text-sm font-semibold text-white hover:text-emerald-100 transition-colors underline-offset-2 hover:underline"
+          >
+            Disclaimer
+          </Link>
+          <p className="text-xs sm:text-sm text-emerald-50">
+            &copy; {new Date().getFullYear()} Copyrights. All Rights Reserved
           </p>
         </div>
       </div>
