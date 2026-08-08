@@ -73,15 +73,15 @@ export default function HomepageGetStarted() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-5">Get Started</h2>
             <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-4">
-              Call to get assistance to compare providers at{' '}
+              Call to compare your options now at{' '}
               <a href="tel:(888) 959-4513" className="text-emerald-600 font-semibold italic hover:underline">
                 (888) 959-4513
               </a>
               , or request a free, no-obligation quote to see available options in your area.
             </p>
             <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-8">
-              Our experts will walk you through plans, pricing, and promotions — so you can upgrade
-              with confidence.
+              Our team can guide you by phone with personalized comparisons — so you can upgrade with
+              confidence.
             </p>
 
             <ul className="space-y-4">
