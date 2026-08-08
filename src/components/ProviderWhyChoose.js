@@ -2,7 +2,11 @@
 
 import ContactForm from '@/components/ContactForm';
 
-export default function ProviderWhyChoose({ providerName }) {
+export default function ProviderWhyChoose({
+  providerName,
+  callCtaLabel = 'Call to get assistance to compare providers',
+  introActionText = 'Call to get assistance to compare providers, understand features and pricing, and select the option that works best for your home or business.',
+}) {
   const idPrefix = providerName.toLowerCase().replace(/\s+/g, '-');
 
   return (
@@ -15,16 +19,15 @@ export default function ProviderWhyChoose({ providerName }) {
             </h2>
             <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-8">
               {`Getting ${providerName} Internet & Cable Services is easier with LQcomparecableinternet. `}
-              Call to get assistance to compare providers, understand features and pricing, and select
-              the option that works best for your home or business. Our team guides you every step of
-              the way — clear, reliable, and hassle-free.
+              {introActionText} Our team guides you every step of the way — clear, reliable, and
+              hassle-free.
             </p>
 
             <a
               href="tel:(888) 959-4513"
               className="inline-flex items-center justify-center px-7 py-3.5 rounded-full font-bold text-white bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 shadow-lg shadow-emerald-500/20 transition-all"
             >
-              Call to get assistance to compare providers
+              {callCtaLabel}
             </a>
 
             <ul className="mt-8 space-y-4">
