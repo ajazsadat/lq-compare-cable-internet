@@ -1,11 +1,22 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import HomepageGetStarted from '@/components/HomepageGetStarted';
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(null);
+
+  useEffect(() => {
+    if (window.location.hash !== '#disclaimer') return;
+
+    const scrollToDisclaimer = () => {
+      document.getElementById('disclaimer')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    const timer = window.setTimeout(scrollToDisclaimer, 50);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   const toggleFaq = (index) => {
     if (openFaq === index) {
@@ -257,6 +268,24 @@ export default function Home() {
       </section>
 
       <HomepageGetStarted />
+
+      <section
+        id="disclaimer"
+        className="scroll-mt-28 w-full bg-white border-t border-slate-200"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-14">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">Disclaimer:</h2>
+          <p className="text-slate-600 text-sm md:text-base font-light leading-relaxed max-w-4xl">
+            Lean and Quality Circle llc, operating LQcomparecableinternet.com, operates as an
+            independent comparison platform that helps users explore and evaluate Internet and TV
+            plans from multiple trusted providers. We do not directly sell, install, or manage any
+            Internet or TV services. LQcomparecableinternet is not Spectrum, Xfinity, AT&amp;T,
+            Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide
+            customer service for these carriers. For existing customer support, please contact your
+            provider directly.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
