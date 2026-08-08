@@ -193,6 +193,7 @@ export default function XfinityPage() {
       <XfinityFaq />
       <ProviderWhyChoose
         providerName="Xfinity"
+        introLeadText="Comparing Internet & Cable Options is easier with LQcomparecableinternet."
         callCtaLabel="Call to compare providers and plans."
         introActionText="Call to compare providers and plans, understand features and pricing, and select the option that works best for your home or business."
       />
