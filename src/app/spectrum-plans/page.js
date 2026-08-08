@@ -97,7 +97,7 @@ export default function SpectrumPage() {
         </div>
       </section>
 
-      {/* Speak With A Live Agent */}
+      {/* Speak With A Comparison Specialist */}
       <section className="border-b border-slate-200 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center gap-4">
           <div className="w-full flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-center">
@@ -108,7 +108,7 @@ export default function SpectrumPage() {
               <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
-              Speak With A Live Agent
+              Speak With A Comparison Specialist
             </a>
             <a
               href="tel:(888) 959-4513"
@@ -225,7 +225,7 @@ export default function SpectrumPage() {
                   href="tel:(888) 959-4513"
                   className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-slate-900 bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg shadow-emerald-500/25 transition-all transform hover:-translate-y-1"
                 >
-                  Call to compare providers — (888) 959-4513
+                  Call For Details — (888) 959-4513
                 </a>
                 <p className="text-xs text-slate-500 mt-4 text-center">
                   Offers, availability, speeds, and pricing vary by ZIP. We are an independent
@@ -276,6 +276,7 @@ export default function SpectrumPage() {
       <SpectrumFaq />
       <ProviderWhyChoose
         providerName="Spectrum"
+        introLeadText="Comparing Internet & Cable Options is easier with LQcomparecableinternet."
         callCtaLabel="Call to compare providers and plans."
         introActionText="Call to compare providers and plans, understand features and pricing, and select the option that works best for your home or business."
       />
