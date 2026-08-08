@@ -70,7 +70,7 @@ export default function Home() {
             Compare Multiple <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-300">Internet Plans</span> In One Place.
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-            LQcomparecableinternet serves as your independent guide to comparing internet plans and securing enrollment. Please note we are an independent comparison and referral service, not a direct internet service provider.
+            LQcomparecableinternet is an independent plan comparison and referral website. Please note we are not a direct internet service provider.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -78,7 +78,7 @@ export default function Home() {
               className="inline-flex items-center justify-center text-center px-8 py-4 text-lg font-bold rounded-full text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all transform hover:-translate-y-1"
             >
               <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-              Call to get assistance to compare providers: (888) 959-4513
+              Call to compare your options now: (888) 959-4513
             </a>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Ultra-Fast Internet</h3>
               <p className="text-slate-600 font-light leading-relaxed mb-6 flex-grow">
-                Unlock blazing-fast speeds with top fiber and cable providers. Whether you're gaming, streaming 4K, or working remotely, LQcomparecableinternet provides clear comparisons to help you select a plan with maximum reliability and minimal lag.
+                Unlock blazing-fast speeds with top fiber and cable providers. Whether you&apos;re gaming, streaming 4K, or working remotely, LQcomparecableinternet guides you through available options so you can select a plan with maximum reliability and minimal lag.
               </p>
             </div>
 
@@ -125,7 +125,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Complete Mobile Solutions</h3>
               <p className="text-slate-600 font-light leading-relaxed mb-6 flex-grow">
-                Evaluate flexible mobile data and calling plans from leading carriers. From unlimited 5G data to family packages, LQcomparecableinternet assists you in finding a cellular plan that guarantees wide coverage and great value.
+                Evaluate flexible mobile data and calling plans from leading carriers. From unlimited 5G data to family packages, LQcomparecableinternet shows you available plans with wide coverage and great value.
               </p>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Home() {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-slate-900">Unified Comparison Hub</h4>
-                    <p className="mt-1 text-slate-600 font-light">Evaluate local internet carriers, discover hidden deals, and get connected with a provider through a single call.</p>
+                    <p className="mt-1 text-slate-600 font-light">Compare Internet providers, explore available offers, and connect with a provider—all in one place.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -177,8 +177,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-semibold text-slate-900">Dedicated Expert Support</h4>
-                    <p className="mt-1 text-slate-600 font-light">Overwhelmed by choices? Our dedicated specialists will break down the details and help you choose the right provider for your needs.</p>
+                    <h4 className="text-lg font-semibold text-slate-900">Personalized Comparison Guidance</h4>
+                    <p className="mt-1 text-slate-600 font-light">Our agents can explain available plans and connect you with the right provider.</p>
                   </div>
                 </li>
               </ul>
@@ -190,19 +190,19 @@ export default function Home() {
                 
                 <h3 className="text-3xl font-bold text-slate-900 mb-6 relative z-10">Looking for Ultra-Fast Internet Plan?</h3>
                 <p className="text-slate-600 mb-8 font-light leading-relaxed relative z-10">
-                  We provide expert guidance to help you navigate through all available provider options. Let our professionals set you up for success.
+                  We&apos;re Here to Guide You Through Comparing Options. Our team can guide you by phone with personalized comparisons.
                 </p>
                 
                 <div className="relative z-10">
-                  <p className="text-sm text-emerald-400 font-semibold uppercase tracking-wider mb-2">Reach Out for Instant Help</p>
+                  <p className="text-sm text-emerald-400 font-semibold uppercase tracking-wider mb-2">Call to compare your options now</p>
                   <a
                     href="tel:(888) 959-4513"
                     className="flex items-center justify-center text-center w-full px-8 py-5 text-xl font-bold rounded-xl text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg transition-all transform hover:-translate-y-1"
                   >
                     <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                    Call to get assistance to compare providers: (888) 959-4513
+                    Call to compare your options now: (888) 959-4513
                   </a>
-                  <p className="text-xs text-slate-500 mt-4 text-center">Call to get assistance to compare providers.</p>
+                  <p className="text-xs text-slate-500 mt-4 text-center">Call to compare your options now.</p>
                 </div>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-slate-600 font-light">Find answers to common questions about our comparison and enrollment services.</p>
+            <p className="text-slate-600 font-light">Find answers to common questions about our comparison and referral services.</p>
           </div>
 
           <div className="space-y-4">
