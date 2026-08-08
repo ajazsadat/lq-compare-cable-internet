@@ -29,11 +29,11 @@ export default function Home() {
   const faqs = [
     {
       q: "Are you an internet, cable, or wireless provider?",
-      a: "No — we’re not a direct provider of internet, wireless, or cable services. We’re an independent comparison and referral service. We help you explore and compare plans from multiple carriers across the U.S., and connect you directly with the provider you choose — giving you access to more options in one place, without being tied to any single carrier."
+      a: "No — we’re not a direct provider of internet, wireless, or cable services. We’re an independent comparison and referral service. You can explore and compare plans from multiple carriers across the U.S., and connect directly with the provider you choose — giving you access to more options in one place, without being tied to any single carrier."
     },
     {
       q: "Is there a fee to use this comparison service?",
-      a: "Our service is completely free for consumers. We may receive compensation from providers or referral partners when you enroll through us, meaning you never pay extra for our assistance."
+      a: "Our service is completely free for consumers. We may receive compensation from providers or referral partners when you enroll through us, meaning you never pay extra to compare with us."
     },
     {
       q: "What is the easiest way to compare plans?",
@@ -45,7 +45,7 @@ export default function Home() {
     },
     {
       q: "Can I get special discounts or promotions?",
-      a: "Absolutely! Carriers frequently offer free installation, equipment upgrades, and bundle savings. We help you review current offers available in your area so you can compare what’s available."
+      a: "Absolutely! Carriers frequently offer free installation, equipment upgrades, and bundle savings. Call to compare current offers available in your area so you can see what’s available."
     },
     {
       q: "How is installation arranged once I select a plan?",
@@ -277,11 +277,11 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">Disclaimer:</h2>
           <p className="text-slate-600 text-sm md:text-base font-light leading-relaxed max-w-4xl">
             Lean and Quality Circle llc, operating LQcomparecableinternet.com, operates as an
-            independent comparison platform that helps users explore and evaluate Internet and TV
+            independent comparison platform where users can explore and evaluate Internet and TV
             plans from multiple trusted providers. We do not directly sell, install, or manage any
             Internet or TV services. LQcomparecableinternet is not Spectrum, Xfinity, AT&amp;T,
             Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide
-            customer service for these carriers. For existing customer support, please contact your
+            customer service for these carriers. For existing account questions, please contact your
             provider directly.
           </p>
         </div>

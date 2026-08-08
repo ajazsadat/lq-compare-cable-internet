@@ -149,8 +149,8 @@ export default function SpectrumPage() {
             <div className="bg-[#ffffff] p-4 rounded-xl border border-slate-200 flex items-start">
               <span className="text-emerald-500 mr-3 text-xl">✅</span>
               <span className="text-slate-600 text-sm">
-                Provider Information Access — We help you find contact details and information about
-                Spectrum&apos;s official support channels
+                Provider Information Access — We can point you to contact details and information about
+                Spectrum&apos;s official channels
               </span>
             </div>
             <div className="bg-[#ffffff] p-4 rounded-xl border border-slate-200 flex items-start">

@@ -19,7 +19,7 @@ export default function ContactForm({
     name: 'John Doe',
     email: 'john@example.com',
     phone: '(555) 123-4567',
-    message: 'How can we help you?',
+    message: 'What would you like to compare?',
   },
 }) {
   const [status, setStatus] = useState('idle');

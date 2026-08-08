@@ -4,9 +4,9 @@ import ContactForm from '@/components/ContactForm';
 
 export default function ProviderWhyChoose({
   providerName,
-  callCtaLabel = 'Call to get assistance to compare providers',
+  callCtaLabel = 'Call to compare providers',
   introLeadText,
-  introActionText = 'Call to get assistance to compare providers, understand features and pricing, and select the option that works best for your home or business.',
+  introActionText = 'Call to compare providers, understand features and pricing, and select the option that works best for your home or business.',
 }) {
   const idPrefix = providerName.toLowerCase().replace(/\s+/g, '-');
   const leadText =
@@ -100,7 +100,7 @@ export default function ProviderWhyChoose({
                 name: 'Your name',
                 email: 'you@example.com',
                 phone: '(555) 123-4567',
-                message: 'How can we help?',
+                message: 'What would you like to compare?',
               }}
               buttonClassName="w-full py-4 px-6 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 shadow-lg shadow-emerald-500/25 transition-all disabled:opacity-60"
             />

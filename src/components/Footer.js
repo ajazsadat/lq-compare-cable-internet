@@ -71,7 +71,7 @@ export default function Footer() {
         
         <div className="mt-12 border-t border-slate-200 pt-8">
           <p className="text-xs text-slate-500 max-w-3xl">
-            LQcomparecableinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+            LQcomparecableinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing account questions, please contact your provider directly.
           </p>
         </div>
       </div>
