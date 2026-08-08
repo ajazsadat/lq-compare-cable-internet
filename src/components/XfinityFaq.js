@@ -8,7 +8,7 @@ const faqs = [
     a: "No — we're an independent comparison resource, not a Comcast or Xfinity partner. We compare Xfinity alongside other providers so you can see how it stacks up.",
   },
   {
-    q: 'Where do I go for help with my current Xfinity account or bill?',
+    q: 'Where do I go for questions about my current Xfinity account or bill?',
     a: "That has to go through Xfinity directly — we don't have access to customer accounts. We can point you to Xfinity's official contact info if needed.",
   },
   {
