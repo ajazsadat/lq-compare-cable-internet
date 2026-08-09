@@ -103,7 +103,7 @@ export default function SpectrumPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center gap-4">
           <div className="w-full flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-center">
             <a
-              href="/independent-support-help"
+              href="/compare-internet-options"
               className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full font-semibold text-slate-900 bg-gradient-to-r from-emerald-400 to-emerald-500 hover:brightness-110 transition"
             >
               <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
