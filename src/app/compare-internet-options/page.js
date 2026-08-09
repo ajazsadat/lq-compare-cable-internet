@@ -6,6 +6,6 @@ export const metadata = {
     'Call to compare internet and TV providers. Speak with a comparison specialist or send us a message. Independent comparison resource — not affiliated with any carrier.',
 };
 
-export default function IndependentSupportHelpPage() {
+export default function CompareInternetOptionsPage() {
   return <IndependentSupportHelpContent />;
 }

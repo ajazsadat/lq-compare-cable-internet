@@ -22,6 +22,11 @@ const nextConfig = {
         destination: '/spectrum-plans',
         permanent: true,
       },
+      {
+        source: '/independent-support-help',
+        destination: '/compare-internet-options',
+        permanent: true,
+      },
     ];
   },
 };
