@@ -3,6 +3,10 @@ import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 import SpectrumFaq from '@/components/SpectrumFaq';
 import SpectrumTopicTabs from '@/components/SpectrumTopicTabs';
+import {
+  ProviderDisclaimerBanner,
+  ProviderDisclaimerFootnote,
+} from '@/components/ProviderIndependentDisclaimer';
 
 export const metadata = {
   title: 'Spectrum Internet & Cable Plans | LQcomparecableinternet',
@@ -73,6 +77,8 @@ export default function SpectrumPage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#f8fafc]">
+      <ProviderDisclaimerBanner providerName="Spectrum" />
+
       {/* Hero Section */}
       <section className="relative h-[40vh] md:h-[50vh] min-h-[400px] flex items-center justify-center border-b border-slate-200 overflow-hidden">
         <Image
@@ -122,8 +128,8 @@ export default function SpectrumPage() {
             </a>
           </div>
           <p className="cta-disclaimer text-center text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
-            LQcomparecableinternet operates as an independent comparison resource — we don&apos;t manage
-            or sell Spectrum accounts. Everything on this page is for general guidance only.
+            LQcomparecableinternet is an independent resource. We do not sell or manage Spectrum
+            accounts; all information is for guidance only.
           </p>
         </div>
       </section>
@@ -237,6 +243,7 @@ export default function SpectrumPage() {
           ))}
         </div>
 
+        <ProviderDisclaimerFootnote providerName="Spectrum" />
       </section>
 
       <ProviderComparisonTable />

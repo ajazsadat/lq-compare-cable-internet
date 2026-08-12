@@ -28,16 +28,16 @@ export default function Home() {
 
   const faqs = [
     {
-      q: "Are you an internet, cable, or wireless provider?",
-      a: "No — we’re not a direct provider of internet, wireless, or cable services. We’re an independent comparison and referral service. You can explore and compare plans from multiple carriers across the U.S., and connect directly with the provider you choose — giving you access to more options in one place, without being tied to any single carrier."
+      q: "Which internet providers can I find through your platform?",
+      a: "We partner with a network of licensed resellers, authorized retailers, and master-dealer distributors representing leading U.S. telecom and internet service brands. Availability and offers vary by ZIP code — enter your ZIP or call us at (888) 959-4513 to view current plan options in your area."
     },
     {
       q: "Is there a fee to use this comparison service?",
       a: "Our service is completely free for consumers. We may receive compensation from providers or referral partners when you enroll through us, meaning you never pay extra to compare with us."
     },
     {
-      q: "What is the easiest way to compare plans?",
-      a: "Our knowledgeable agents break down pricing, speeds, and contract details from multiple carriers. We save you the hassle of browsing dozens of websites to find the perfect deal."
+      q: "What does it mean to be an “authorized reseller” or “partner network”?",
+      a: "We are not the direct provider of internet, wireless, or cable services. Instead, LQcomparecableinternet.com, operated by Lean and Quality Circle llc, acts as an authorized reseller and licensed retailer for multiple carrier and service networks across the U.S. This means we’re approved to market, compare, and facilitate service orders through official partner and master-dealer programs — giving customers access to more plan options in one place."
     },
     {
       q: "Which connection types are offered?",
@@ -95,6 +95,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Who We Are */}
+      <section className="py-20 bg-white border-t border-slate-200">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Who We Are</h2>
+          <p className="text-slate-600 text-base md:text-lg font-light leading-relaxed mb-4">
+            LQcomparecableinternet.com, operated by Lean and Quality Circle llc, is an independent,
+            authorized reseller that works with multiple leading broadband, cable, and wireless
+            providers. We don&apos;t favor any carrier — our recommendations are based on your
+            location, your needs, and your budget.
+          </p>
+          <p className="text-slate-600 text-base md:text-lg font-light leading-relaxed">
+            We are not an internet service provider and do not own or operate network
+            infrastructure. All services are fulfilled and billed directly by licensed carriers.
+          </p>
+        </div>
+      </section>
+
       {/* Solutions Grid Section */}
       <section className="py-24 bg-[#f8fafc] relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -140,6 +157,21 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Operated By Offers */}
+      <section className="py-20 bg-white border-t border-slate-200">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6 leading-tight">
+            LQcomparecableinternet.com, operated by Lean and Quality Circle llc, offers
+          </h2>
+          <p className="text-slate-600 text-base md:text-lg font-light leading-relaxed">
+            A single, convenient platform to explore high-speed Internet, Cable TV, Home Phone,
+            Wireless, and Home Security options—featuring real-time availability, upfront pricing,
+            and easy installation coordination as an independent, authorized retailer and licensed
+            reseller for several leading U.S. telecom and home service providers.
+          </p>
         </div>
       </section>
 
@@ -254,7 +286,7 @@ export default function Home() {
                 </button>
                 <div 
                   className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${
-                    openFaq === index ? 'max-h-96 pb-6 opacity-100' : 'max-h-0 opacity-0'
+                    openFaq === index ? 'max-h-[40rem] pb-6 opacity-100' : 'max-h-0 opacity-0'
                   }`}
                 >
                   <p className="text-slate-600 font-light leading-relaxed">
@@ -276,7 +308,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-14">
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">Disclaimer:</h2>
           <p className="text-slate-600 text-sm md:text-base font-light leading-relaxed max-w-4xl">
-            Lean and Quality Circle llc, operating LQcomparecableinternet.com, operates as an
+            LQcomparecableinternet.com, operated by Lean and Quality Circle llc, operates as an
             independent comparison platform where users can explore and evaluate Internet and TV
             plans from multiple trusted providers. We do not directly sell, install, or manage any
             Internet or TV services. LQcomparecableinternet is not Spectrum, Xfinity, AT&amp;T,

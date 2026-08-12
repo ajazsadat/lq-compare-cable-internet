@@ -2,6 +2,10 @@ import Image from 'next/image';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 import XfinityFaq from '@/components/XfinityFaq';
+import {
+  ProviderDisclaimerBanner,
+  ProviderDisclaimerFootnote,
+} from '@/components/ProviderIndependentDisclaimer';
 
 export const metadata = {
   title: 'Xfinity TV & Internet Deals | LQcomparecableinternet',
@@ -68,6 +72,8 @@ export default function XfinityPage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#f8fafc]">
+      <ProviderDisclaimerBanner providerName="Xfinity" />
+
       {/* Hero Section */}
       <section className="relative h-[40vh] md:h-[50vh] min-h-[400px] flex items-center justify-center border-b border-slate-200 overflow-hidden">
         <Image
@@ -188,6 +194,8 @@ export default function XfinityPage() {
             </div>
           ))}
         </div>
+
+        <ProviderDisclaimerFootnote providerName="Xfinity" />
       </section>
 
       <ProviderComparisonTable />
