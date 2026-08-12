@@ -42,11 +42,11 @@ export default function Header() {
   const isProviderActive = providerLinks.some((link) => pathname === link.href || pathname.startsWith(`${link.href}/`));
 
   const defaultDisclaimer =
-    'Lean and Quality Circle llc, operating LQcomparecableinternet.com — compare top internet and TV plans from leading and trusted providers available in your area.';
+    'LQcomparecableinternet.com, operated by Lean and Quality Circle llc, helps you compare top internet and TV plans from leading and trusted providers available in your area.';
   const spectrumDisclaimer =
-    'LQcomparecableinternet is an independent comparison platform — not Spectrum, Charter, or any other carrier. We do not provide customer service for these carriers. For existing account questions, please contact your provider directly.';
+    'LQcomparecableinternet is an independent resource. We do not sell or manage Spectrum accounts; all information is for guidance only.';
   const xfinityDisclaimer =
-    'LQcomparecableinternet is an independent comparison platform — not Xfinity, Comcast, or any other carrier. We do not provide customer service for these carriers. For existing account questions, please contact your provider directly.';
+    'LQcomparecableinternet is an independent resource. We do not sell or manage Xfinity accounts; all information is for guidance only.';
 
   const headerDisclaimer = pathname.startsWith('/spectrum-plans')
     ? spectrumDisclaimer

@@ -28,10 +28,19 @@ export default function Footer() {
                 <Link href="/contact" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Contact Us</Link>
               </li>
               <li>
+                <Link href="/terms-conditions" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Terms & Conditions</Link>
+              </li>
+              <li>
                 <Link href="/privacy-policy" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="/terms-conditions" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Terms & Conditions</Link>
+                <Link href="/reseller-disclosure" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Reseller Disclosure</Link>
+              </li>
+              <li>
+                <Link href="/cookie-policy" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Cookie Policy</Link>
+              </li>
+              <li>
+                <Link href="/fees-disclosures" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Fees &amp; Disclosures</Link>
               </li>
             </ul>
           </div>
