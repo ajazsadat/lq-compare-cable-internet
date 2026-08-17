@@ -14,14 +14,15 @@ export default function ResellerDisclosure() {
 
         <section className="mb-8 space-y-4">
           <p className="leading-relaxed font-light">
-            LQcomparecableinternet.com, operated by Lean and Quality Circle llc, is an independent
-            comparison and referral platform that helps customers compare, select, and connect with
-            broadband, wireless, and digital services across the United States.
+            LQcomparecableinternet.com is operated by Lean and Quality Circle llc, an independent
+            reseller that helps customers compare, select, and connect with broadband, wireless, and
+            digital services across the United States.
           </p>
           <p className="leading-relaxed font-light">
-            We are not owned, operated, or controlled by any internet service provider (ISP) or
-            carrier. All broadband and wireless services are delivered, billed, and supported
-            directly by the respective licensed providers.
+            We do not own or operate any network, we are not a licensed service provider, and we are
+            not owned, operated, or controlled by any internet service provider (ISP) or carrier.
+            All broadband and wireless services are delivered, billed, and supported directly by the
+            respective licensed providers.
           </p>
           <p className="leading-relaxed font-light">
             Lean and Quality Circle llc may receive a commission or referral incentive from these

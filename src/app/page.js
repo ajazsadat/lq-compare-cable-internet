@@ -29,15 +29,15 @@ export default function Home() {
   const faqs = [
     {
       q: "Which internet providers can I find through your platform?",
-      a: "We partner with a network of licensed resellers, authorized retailers, and master-dealer distributors representing leading U.S. telecom and internet service brands. Availability and offers vary by ZIP code — enter your ZIP or call us at (888) 959-4513 to view current plan options in your area."
+      a: "We help you compare plans from leading U.S. telecom and internet service brands. Availability and offers vary by ZIP code — enter your ZIP or call us at (888) 959-4513 to view current plan options in your area."
     },
     {
       q: "Is there a fee to use this comparison service?",
       a: "Our service is completely free for consumers. We may receive compensation from providers or referral partners when you enroll through us, meaning you never pay extra to compare with us."
     },
     {
-      q: "What does it mean to be an “authorized reseller” or “partner network”?",
-      a: "We are not the direct provider of internet, wireless, or cable services. Instead, LQcomparecableinternet.com, operated by Lean and Quality Circle llc, acts as an authorized reseller and licensed retailer for multiple carrier and service networks across the U.S. This means we’re approved to market, compare, and facilitate service orders through official partner and master-dealer programs — giving customers access to more plan options in one place."
+      q: "Are you an internet provider?",
+      a: "No. LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent reseller. We are not affiliated with any specific provider, and we don’t own or operate any network — your chosen provider handles installation, billing, and support."
     },
     {
       q: "Which connection types are offered?",
@@ -81,7 +81,7 @@ export default function Home() {
             Find Reliable <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-300">Internet, TV &amp; Wireless</span> Services Near You
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-            LQcomparecableinternet is an independent plan comparison and referral website. Please note we are not a direct internet service provider.
+            LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent reseller. This is not the official website of any internet, TV, or wireless service provider.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -100,14 +100,15 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Who We Are</h2>
           <p className="text-slate-600 text-base md:text-lg font-light leading-relaxed mb-4">
-            LQcomparecableinternet.com, operated by Lean and Quality Circle llc, is an independent,
-            authorized reseller that works with multiple leading broadband, cable, and wireless
-            providers. We don&apos;t favor any carrier — our recommendations are based on your
-            location, your needs, and your budget.
+            LQcomparecableinternet.com is operated by Lean and Quality Circle llc, an independent
+            reseller. We help households and businesses compare internet, TV, and wireless plans
+            from leading providers — so you can find the right fit without the runaround. We
+            don&apos;t favor any carrier; our comparisons are based on your location, your needs,
+            and your budget.
           </p>
           <p className="text-slate-600 text-base md:text-lg font-light leading-relaxed">
-            We are not an internet service provider and do not own or operate network
-            infrastructure. All services are fulfilled and billed directly by licensed carriers.
+            We don&apos;t own or operate any network, and we are not a licensed service provider.
+            Your chosen provider handles installation, billing, and support.
           </p>
         </div>
       </section>
@@ -169,8 +170,8 @@ export default function Home() {
           <p className="text-slate-600 text-base md:text-lg font-light leading-relaxed">
             A single, convenient platform to explore high-speed Internet, Cable TV, Home Phone,
             Wireless, and Home Security options—featuring real-time availability, upfront pricing,
-            and easy installation coordination as an independent, authorized retailer and licensed
-            reseller for several leading U.S. telecom and home service providers.
+            and easy installation coordination as an independent reseller for several leading U.S.
+            telecom and home service providers.
           </p>
         </div>
       </section>
@@ -259,7 +260,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-slate-600 font-light">Find answers to common questions about our comparison and referral services.</p>
+            <p className="text-slate-600 font-light">Find answers to common questions about how we compare plans and connect you with providers.</p>
           </div>
 
           <div className="space-y-4">
@@ -314,12 +315,11 @@ export default function Home() {
             </p>
             <p>
               LQcomparecableinternet.com is operated by Lean and Quality Circle llc, an independent
-              authorized reseller that helps consumers explore internet, TV, and wireless service
-              options. We do not own, operate, or provide telecommunications, internet, or TV
-              services. All services presented here are provided, installed, billed, and supported
-              by licensed third-party providers, not by Lean and Quality Circle llc. Our role is
-              limited to comparing available options and helping you connect with the provider you
-              choose.
+              reseller. This is not the official website of any internet, TV, or wireless service
+              provider. We do not own, operate, or maintain any network infrastructure, and we are
+              not a licensed service provider — we simply help you compare and connect with home
+              internet, fiber, wireless, and TV options. All services are provided, installed, and
+              billed directly by licensed third-party providers.
             </p>
             <p>
               LQcomparecableinternet is not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier,

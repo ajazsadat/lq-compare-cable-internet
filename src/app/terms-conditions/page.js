@@ -14,7 +14,7 @@ export default function TermsConditions() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">Terms of Service</h2>
           <p className="mb-4 leading-relaxed font-light">
-            Welcome to LQcomparecableinternet.com, operated by Lean and Quality Circle llc. By accessing or using our website and services, you agree to these Terms of Service. Please read them carefully.
+            Welcome to LQcomparecableinternet.com, operated by Lean and Quality Circle llc, an independent reseller that helps you compare and connect with home internet, fiber, wireless, and TV bundle plans from leading providers. We do not own any network. All services are provided, installed, and billed directly by the provider you choose. By accessing or using our website and services, you agree to these Terms of Service. Please read them carefully.
           </p>
         </section>
 
@@ -28,7 +28,7 @@ export default function TermsConditions() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">2. Services Description</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We provide plan comparison information and order facilitation services for cable, internet, phone, and mobile services as an independent comparison and referral service. Availability may vary by service provider and location. All actual service provision, pricing, promotions, billing, installation, and account management are handled directly by the underlying service providers. We do not guarantee service availability, pricing, speeds, or promotional terms.
+            We provide plan comparison information and order facilitation services for cable, internet, phone, and mobile services as an independent reseller. Availability may vary by service provider and location. All actual service provision, pricing, promotions, billing, installation, and account management are handled directly by the underlying service providers. Lean and Quality Circle llc does not process payments, so any billing questions or cancellations should go directly to your provider. We do not guarantee service availability, pricing, speeds, or promotional terms.
           </p>
         </section>
 

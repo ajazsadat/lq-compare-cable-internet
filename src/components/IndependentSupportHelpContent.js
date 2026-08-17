@@ -70,10 +70,10 @@ export default function IndependentSupportHelpContent({ className = '' }) {
           </div>
 
           <p className="page-disclaimer text-center text-sm text-slate-500 font-light leading-relaxed max-w-3xl mx-auto">
-            LQcomparecableinternet is an independent comparison resource. We do not provide internet,
-            TV, or phone services directly, and we are not affiliated with Spectrum, Xfinity, AT&amp;T,
-            Verizon, or any other carrier. For billing or existing account questions, please contact your
-            provider directly.
+            LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent
+            reseller. We do not provide internet, TV, or phone services directly, and we are not
+            affiliated with Spectrum, Xfinity, AT&amp;T, Verizon, or any other carrier. For billing or
+            existing account questions, please contact your provider directly.
           </p>
         </div>
       </section>
