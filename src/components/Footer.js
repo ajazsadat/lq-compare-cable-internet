@@ -9,9 +9,6 @@ export default function Footer() {
             <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-emerald-300">
               LQcomparecableinternet
             </span>
-            <p className="mt-4 text-sm text-slate-600 max-w-xs">
-              Your trusted independent comparison service for TV and Internet deals. Find the best plans from top providers in your area.
-            </p>
           </div>
           
           <div>

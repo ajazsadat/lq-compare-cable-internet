@@ -26,7 +26,10 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col bg-[#f8fafc] text-slate-900">
+      <body
+        className="min-h-full flex flex-col bg-[#f8fafc] text-slate-900"
+        suppressHydrationWarning
+      >
         <TawkTo />
         <SiteChrome>{children}</SiteChrome>
       </body>

@@ -27,7 +27,7 @@ export default function Header() {
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
-    { name: 'Live Agent', href: '/live-agent' },
+    { name: 'Contact to Compare', href: '/contact-to-compare' },
     { name: 'Contact Us', href: '/contact' },
   ];
 
