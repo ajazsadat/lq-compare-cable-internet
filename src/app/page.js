@@ -5,7 +5,7 @@ import Link from 'next/link';
 import HomepageGetStarted from '@/components/HomepageGetStarted';
 
 export default function Home() {
-  const [openFaq, setOpenFaq] = useState(null);
+  const [openFaq, setOpenFaq] = useState(0);
 
   useEffect(() => {
     if (window.location.hash !== '#disclaimer') return;
@@ -75,10 +75,10 @@ export default function Home() {
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-10">
           <div className="inline-flex items-center px-4 py-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 text-sm font-medium mb-8">
             <span className="flex w-2 h-2 rounded-full bg-emerald-400 animate-pulse mr-2"></span>
-            Independent Plan Comparison
+            LQcomparecableinternet
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-slate-900 mb-6 tracking-tight leading-tight drop-shadow-lg">
-            Compare Multiple <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-300">Internet Plans</span> In One Place.
+            Find Reliable <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-300">Internet, TV &amp; Wireless</span> Services Near You
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
             LQcomparecableinternet is an independent plan comparison and referral website. Please note we are not a direct internet service provider.
@@ -89,7 +89,7 @@ export default function Home() {
               className="inline-flex items-center justify-center text-center px-8 py-4 text-lg font-bold rounded-full text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all transform hover:-translate-y-1"
             >
               <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-              Call to compare your options now: (888) 959-4513
+              (888) 959-4513
             </a>
           </div>
         </div>
@@ -243,7 +243,7 @@ export default function Home() {
                     className="flex items-center justify-center text-center w-full px-8 py-5 text-xl font-bold rounded-xl text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 shadow-lg transition-all transform hover:-translate-y-1"
                   >
                     <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                    Call to compare your options now: (888) 959-4513
+                    (888) 959-4513
                   </a>
                   <p className="text-xs text-slate-500 mt-4 text-center">Call to compare your options now.</p>
                 </div>
@@ -308,13 +308,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-14">
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">Disclaimer:</h2>
           <p className="text-slate-600 text-sm md:text-base font-light leading-relaxed max-w-4xl">
-            LQcomparecableinternet.com, operated by Lean and Quality Circle llc, operates as an
-            independent comparison platform where users can explore and evaluate Internet and TV
-            plans from multiple trusted providers. We do not directly sell, install, or manage any
-            Internet or TV services. LQcomparecableinternet is not Spectrum, Xfinity, AT&amp;T,
-            Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide
-            customer service for these carriers. For existing account questions, please contact your
-            provider directly.
+            Your trusted independent comparison service for TV and Internet deals. Find the best
+            plans from top providers in your area.
           </p>
         </div>
       </section>

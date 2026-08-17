@@ -104,7 +104,7 @@ export default function SpectrumPage() {
         </div>
       </section>
 
-      {/* Speak With A Comparison Specialist */}
+      {/* Contact Us Now */}
       <section className="border-b border-slate-200 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center gap-4">
           <div className="w-full flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-center">
@@ -115,7 +115,7 @@ export default function SpectrumPage() {
               <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
-              Speak With A Comparison Specialist
+              Contact Us Now
             </a>
             <a
               href="tel:(888) 959-4513"
