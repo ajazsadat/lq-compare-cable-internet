@@ -14,10 +14,11 @@ export default function FeesDisclosures() {
 
         <section className="mb-8 space-y-4">
           <p className="leading-relaxed font-light">
-            LQcomparecableinternet.com, operated by Lean and Quality Circle llc, does not charge
-            customers any additional fees for consulting, comparison, or connection assistance. Any
-            applicable installation, activation, or equipment fees are determined and charged
-            directly by the service provider, not by Lean and Quality Circle llc.
+            LQcomparecableinternet.com is operated by Lean and Quality Circle llc, an independent
+            reseller. We do not charge customers any additional fees for consulting, comparison, or
+            connection assistance, and we do not process payments. All billing is handled by the
+            provider you choose, and any applicable installation, activation, or equipment fees are
+            determined and charged directly by that provider, not by Lean and Quality Circle llc.
           </p>
           <p className="leading-relaxed font-light">
             We may receive a one-time or recurring commission from our partner providers for

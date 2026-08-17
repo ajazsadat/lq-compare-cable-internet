@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About Us | LQcomparecableinternet',
-  description: 'Learn more about LQcomparecableinternet, your trusted independent comparison service for TV and Internet deals.',
+  description: 'Learn more about LQcomparecableinternet, operated by Lean and Quality Circle llc, an independent reseller helping you compare TV and Internet deals.',
 };
 
 export default function About() {
@@ -35,7 +35,7 @@ export default function About() {
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">What We Do</h2>
                 <p className="text-slate-600 leading-relaxed">
-                  Operating as an independent advisor, we compile the newest promotions from leading carriers such as Xfinity, Frontier, and Windstream. We display these options in a straightforward format, enabling you to confidently compare pricing, speeds, and features.
+                  LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent reseller. We compile the newest promotions from leading carriers such as Xfinity, Frontier, and Windstream and display these options in a straightforward format, enabling you to confidently compare pricing, speeds, and features. We don&apos;t own or operate any network; your chosen provider handles installation, billing, and support.
                 </p>
               </div>
 
@@ -44,7 +44,7 @@ export default function About() {
                 <ul className="space-y-4 text-slate-600">
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-emerald-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                    <span><strong>Objective Analysis:</strong> Because we aren't a direct internet provider, our advice remains completely impartial and tailored solely to your best interests.</span>
+                    <span><strong>Objective Analysis:</strong> Because we aren&apos;t a licensed service provider, our comparisons remain impartial and tailored solely to your best interests.</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-emerald-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
