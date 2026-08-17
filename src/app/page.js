@@ -307,10 +307,29 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-14">
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">Disclaimer:</h2>
-          <p className="text-slate-600 text-sm md:text-base font-light leading-relaxed max-w-4xl">
-            Your trusted independent comparison service for TV and Internet deals. Find the best
-            plans from top providers in your area.
-          </p>
+          <div className="space-y-4 max-w-4xl text-slate-600 text-sm md:text-base font-light leading-relaxed">
+            <p>
+              Your trusted independent comparison service for TV and Internet deals. Find the best
+              plans from top providers in your area.
+            </p>
+            <p>
+              LQcomparecableinternet.com is operated by Lean and Quality Circle llc, an independent
+              authorized reseller that helps consumers explore internet, TV, and wireless service
+              options. We do not own, operate, or provide telecommunications, internet, or TV
+              services. All services presented here are provided, installed, billed, and supported
+              by licensed third-party providers, not by Lean and Quality Circle llc. Our role is
+              limited to comparing available options and helping you connect with the provider you
+              choose.
+            </p>
+            <p>
+              LQcomparecableinternet is not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier,
+              Windstream, Brightspeed, or any other carrier, and we do not provide customer service
+              for these carriers. All trademarks and brand names are the property of their
+              respective owners. Plan availability, pricing, and promotions vary by address and are
+              subject to change by the provider. For questions about an existing account, please
+              contact your provider directly.
+            </p>
+          </div>
         </div>
       </section>
     </div>

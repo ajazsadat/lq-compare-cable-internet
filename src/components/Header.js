@@ -31,28 +31,18 @@ export default function Header() {
     { name: 'Contact Us', href: '/contact' },
   ];
 
-  const providerLinks = [
-    { name: 'Xfinity', href: '/xfinity-plans' },
-    { name: 'Spectrum', href: '/spectrum-plans' },
-    // { name: 'Frontier', href: '/frontier-plans' },
-    // { name: 'Windstream', href: '/windstream-plans' },
-  ];
+  // Provider pages are disabled for now.
+  // const providerLinks = [
+  //   { name: 'Xfinity', href: '/xfinity-plans' },
+  //   { name: 'Spectrum', href: '/spectrum-plans' },
+  //   { name: 'Frontier', href: '/frontier-plans' },
+  //   { name: 'Windstream', href: '/windstream-plans' },
+  // ];
 
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
-  const isProviderActive = providerLinks.some((link) => pathname === link.href || pathname.startsWith(`${link.href}/`));
 
-  const defaultDisclaimer =
+  const headerDisclaimer =
     'LQcomparecableinternet.com, operated by Lean and Quality Circle llc, helps you compare top internet and TV plans from leading and trusted providers available in your area.';
-  const spectrumDisclaimer =
-    'LQcomparecableinternet is an independent resource. We do not sell or manage Spectrum accounts; all information is for guidance only.';
-  const xfinityDisclaimer =
-    'LQcomparecableinternet is an independent resource. We do not sell or manage Xfinity accounts; all information is for guidance only.';
-
-  const headerDisclaimer = pathname.startsWith('/spectrum-plans')
-    ? spectrumDisclaimer
-    : pathname.startsWith('/xfinity-plans')
-      ? xfinityDisclaimer
-      : defaultDisclaimer;
 
   // Prevent hydration errors by not rendering UI that depends on window until mounted
   if (!mounted) {
@@ -92,12 +82,12 @@ export default function Header() {
               </Link>
             ))}
 
-            {/* Providers Dropdown */}
-            <div 
+            {/* Providers Dropdown — disabled while the provider pages are offline
+            <div
               className="relative"
               ref={dropdownRef}
             >
-              <button 
+              <button
                 onClick={() => setIsProvidersOpen(!isProvidersOpen)}
                 className={`text-sm font-medium transition-colors hover:text-emerald-400 flex items-center ${
                   isProviderActive ? 'text-emerald-400' : 'text-slate-600'
@@ -126,6 +116,7 @@ export default function Header() {
                 </div>
               )}
             </div>
+            */}
 
             <a href="tel:(888) 959-4513" className="ml-8 inline-flex items-center justify-center text-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-[#f8fafc] transition-all transform hover:scale-105">
               Call to compare: (888) 959-4513
@@ -171,6 +162,7 @@ export default function Header() {
               </Link>
             ))}
             
+            {/* Providers — disabled while the provider pages are offline
             <div className="px-3 py-2 text-base font-medium text-slate-900 border-t border-slate-200 mt-2 pt-2">Providers</div>
 
             {providerLinks.map((link) => (
@@ -183,6 +175,7 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
+            */}
 
             <a
               href="tel:(888) 959-4513"
