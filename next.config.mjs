@@ -2,26 +2,39 @@
 const nextConfig = {
   async redirects() {
     return [
-      // Provider pages are disabled, so these now point at the homepage.
-      // Restore the /*-plans destinations when those pages come back.
       {
-        source: '/providers/:provider',
-        destination: '/',
-        permanent: false,
+        source: '/providers/xfinity',
+        destination: '/xfinity-plans',
+        permanent: true,
       },
       {
-        source: '/xfinity-plans',
-        destination: '/',
-        permanent: false,
+        source: '/providers/spectrum',
+        destination: '/spectrum-plans',
+        permanent: true,
       },
       {
-        source: '/spectrum-plans',
-        destination: '/',
-        permanent: false,
+        source: '/providers/frontier',
+        destination: '/frontier-plans',
+        permanent: true,
+      },
+      {
+        source: '/providers/windstream',
+        destination: '/windstream-plans',
+        permanent: true,
       },
       {
         source: '/independent-support-help',
         destination: '/compare-internet-options',
+        permanent: true,
+      },
+      {
+        source: '/contact-to-compare',
+        destination: '/contact-us-to-compare',
+        permanent: true,
+      },
+      {
+        source: '/reseller-disclosure',
+        destination: '/comparison-disclosure',
         permanent: true,
       },
     ];

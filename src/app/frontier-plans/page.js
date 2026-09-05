@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
+import OfferTerms from '@/components/OfferTerms';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
 export const metadata = {
@@ -129,7 +130,7 @@ export default function FrontierPage() {
 
         <div className="mb-12 text-center">
           <p className="text-slate-600 max-w-4xl mx-auto text-sm">
-            "We are not Frontier or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to Frontier’s terms and availability."
+            &quot;We are not Frontier or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to Frontier&rsquo;s terms and availability.&quot;
           </p>
         </div>
 
@@ -171,6 +172,9 @@ export default function FrontierPage() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="max-w-4xl mx-auto mt-8 px-4">
+          <OfferTerms providerName="Frontier" />
         </div>
       </section>
 

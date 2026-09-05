@@ -1,11 +1,11 @@
-import IndependentSupportHelpContent from '@/components/IndependentSupportHelpContent';
+import LiveAgentConnect from '@/components/LiveAgentConnect';
+import { SITE } from '@/lib/site';
 
 export const metadata = {
-  title: 'Independent Comparison Guidance | LQcomparecableinternet',
-  description:
-    'Call to compare internet and TV providers. Speak with a comparison specialist or send us a message. Independent reseller — not affiliated with any carrier.',
+  title: `Compare Internet Options | ${SITE.brandFull}`,
+  description: `Call now and we'll walk you through your options with ${SITE.brandFull} — an independent comparison and referral service, not owned or controlled by any carrier.`,
 };
 
-export default function CompareInternetOptionsPage() {
-  return <IndependentSupportHelpContent />;
+export default function Page() {
+  return <LiveAgentConnect disclosure={SITE.comparePageDisclosure} showAddress />;
 }

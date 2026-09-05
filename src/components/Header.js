@@ -7,12 +7,9 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isProvidersOpen, setIsProvidersOpen] = useState(false);
   const pathname = usePathname() || '';
-  const [mounted, setMounted] = useState(false);
   const dropdownRef = useRef(null);
 
   useEffect(() => {
-    setMounted(true);
-    
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsProvidersOpen(false);
@@ -26,35 +23,25 @@ export default function Header() {
 
   const navLinks = [
     { name: 'Home', href: '/' },
+    { name: 'Services', href: '/#services' },
+    { name: 'Choose Us', href: '/#choose-us' },
     { name: 'About Us', href: '/about' },
-    { name: 'Contact to Compare', href: '/contact-to-compare' },
+    { name: 'Contact Us to Compare', href: '/contact-us-to-compare' },
     { name: 'Contact Us', href: '/contact' },
   ];
 
-  // Provider pages are disabled for now.
-  // const providerLinks = [
-  //   { name: 'Xfinity', href: '/xfinity-plans' },
-  //   { name: 'Spectrum', href: '/spectrum-plans' },
-  //   { name: 'Frontier', href: '/frontier-plans' },
-  //   { name: 'Windstream', href: '/windstream-plans' },
-  // ];
+  const providerLinks = [
+    { name: 'Xfinity', href: '/xfinity-plans' },
+    { name: 'Spectrum', href: '/spectrum-plans' },
+    { name: 'Frontier', href: '/frontier-plans' },
+    { name: 'Windstream', href: '/windstream-plans' },
+  ];
 
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
+  const isProviderActive = providerLinks.some((link) => pathname === link.href);
 
   const headerDisclaimer =
     'LQcomparecableinternet.com, operated by Lean and Quality Circle llc, helps you compare top internet and TV plans from leading and trusted providers available in your area.';
-
-  // Prevent hydration errors by not rendering UI that depends on window until mounted
-  if (!mounted) {
-    return (
-      <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#f8fafc]/90 backdrop-blur-md border-b border-slate-200">
-        <div className="bg-emerald-900/30 text-slate-600 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-slate-200 leading-snug">
-          {headerDisclaimer}
-        </div>
-        <div className="h-20"></div>
-      </header>
-    );
-  }
 
   return (
     <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#f8fafc]/90 backdrop-blur-md border-b border-slate-200">
@@ -69,7 +56,7 @@ export default function Header() {
             </Link>
           </div>
           
-          <div className="hidden md:flex space-x-8 items-center">
+          <div className="hidden lg:flex gap-5 xl:gap-7 items-center">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -82,7 +69,7 @@ export default function Header() {
               </Link>
             ))}
 
-            {/* Providers Dropdown — disabled while the provider pages are offline
+            {/* Providers Dropdown */}
             <div
               className="relative"
               ref={dropdownRef}
@@ -116,14 +103,13 @@ export default function Header() {
                 </div>
               )}
             </div>
-            */}
 
-            <a href="tel:(888) 959-4513" className="ml-8 inline-flex items-center justify-center text-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-[#f8fafc] transition-all transform hover:scale-105">
+            <a href="tel:(888) 959-4513" className="inline-flex items-center justify-center text-center px-5 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-[#f8fafc] transition-all transform hover:scale-105">
               Call to compare: (888) 959-4513
             </a>
           </div>
 
-          <div className="flex items-center md:hidden">
+          <div className="flex items-center lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-slate-600 hover:text-slate-900 focus:outline-none"
@@ -145,7 +131,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-[#ffffff] border-b border-slate-200">
+        <div className="lg:hidden bg-[#ffffff] border-b border-slate-200">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
               <Link
@@ -162,7 +148,6 @@ export default function Header() {
               </Link>
             ))}
             
-            {/* Providers — disabled while the provider pages are offline
             <div className="px-3 py-2 text-base font-medium text-slate-900 border-t border-slate-200 mt-2 pt-2">Providers</div>
 
             {providerLinks.map((link) => (
@@ -175,7 +160,6 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
-            */}
 
             <a
               href="tel:(888) 959-4513"
