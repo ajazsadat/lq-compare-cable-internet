@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { SITE } from '@/lib/site';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -104,8 +105,8 @@ export default function Header() {
               )}
             </div>
 
-            <a href="tel:(888) 959-4513" className="inline-flex items-center justify-center text-center px-5 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-[#f8fafc] transition-all transform hover:scale-105">
-              Call to compare: (888) 959-4513
+            <a href={`tel:${SITE.phoneTel}`} className="inline-flex items-center justify-center text-center px-5 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-[#f8fafc] transition-all transform hover:scale-105">
+              {SITE.phoneDisplay}
             </a>
           </div>
 
@@ -162,10 +163,10 @@ export default function Header() {
             ))}
 
             <a
-              href="tel:(888) 959-4513"
+              href={`tel:${SITE.phoneTel}`}
               className="block w-full text-center mt-4 px-5 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-emerald-600 to-emerald-600 hover:from-emerald-500 hover:to-emerald-500"
             >
-              Call to compare: (888) 959-4513
+              {SITE.phoneDisplay}
             </a>
           </div>
         </div>
