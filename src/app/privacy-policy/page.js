@@ -14,10 +14,10 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">What This Policy Covers</h2>
           <p className="mb-4 leading-relaxed font-light">
-            LQcomparecableinternet.com (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;), operated by Lean and Quality Circle llc, is an independent reseller and manages this website and associated promotional brands. When we refer to our &quot;Services,&quot; we mean the websites, marketing campaigns, and offers we provide through our online channels.
+            LQcomparecableinternet.com (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;), operated by Lean and Quality Circle llc, is an independent comparison and referral service and manages this website and associated promotional brands. When we refer to our &quot;Services,&quot; we mean the websites, marketing campaigns, and offers we provide through our online channels.
           </p>
           <p className="mb-4 leading-relaxed font-light">
-            This Privacy Policy explains how we collect, use, and protect your personal data (also called "personal information"). It also outlines the security measures we use to safeguard your data, and the rights and choices available to you.
+            This Privacy Policy explains how we collect, use, and protect your personal data (also called &quot;personal information&quot;). It also outlines the security measures we use to safeguard your data, and the rights and choices available to you.
           </p>
           <p className="mb-4 leading-relaxed font-light">
             Our Services may contain links to third-party websites. We do not control those websites and encourage you to review their privacy policies separately. Our Services are not intended for children under the age of 16, and we do not knowingly collect personal information from minors.
@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">4. Third-Party Services</h2>
           <p className="mb-4 leading-relaxed font-light">
-            Lean and Quality Circle llc is an independent reseller and does not provide services directly. We may share personal information with trusted third-party service providers (such as analytics providers) under confidentiality agreements. Information may also be shared with participating service providers solely for the purpose of plan comparison, eligibility checks, or service enrollment at the user's request.
+            Lean and Quality Circle llc is an independent comparison and referral service and does not provide services directly. We may share personal information with trusted third-party service providers (such as analytics providers) under confidentiality agreements. Information may also be shared with participating service providers solely for the purpose of plan comparison, eligibility checks, or service enrollment at the user&apos;s request.
           </p>
           <p className="mb-4 leading-relaxed font-light">
             We do not sell your personal data. We only use personal data for purposes described in this policy and do not share your personal data with third parties except as disclosed.
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-4">6. Children's Privacy</h2>
+          <h2 className="text-2xl font-semibold text-slate-900 mb-4">6. Children&apos;s Privacy</h2>
           <p className="mb-4 leading-relaxed font-light">
             Our services are not directed to individuals under the age of 16. We do not knowingly collect personal information from minors.
           </p>
@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">9. Changes to This Policy</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We may update this policy periodically. The "Effective Date" at the top will indicate changes.
+            We may update this policy periodically. The &quot;Effective Date&quot; at the top will indicate changes.
           </p>
         </section>
 

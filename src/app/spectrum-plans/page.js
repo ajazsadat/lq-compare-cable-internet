@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
+import OfferTerms from '@/components/OfferTerms';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 import SpectrumFaq from '@/components/SpectrumFaq';
 import SpectrumTopicTabs from '@/components/SpectrumTopicTabs';
@@ -244,6 +245,9 @@ export default function SpectrumPage() {
         </div>
 
         <ProviderDisclaimerFootnote providerName="Spectrum" />
+        <div className="max-w-4xl mx-auto mt-8 px-4">
+          <OfferTerms providerName="Spectrum" />
+        </div>
       </section>
 
       <ProviderComparisonTable />

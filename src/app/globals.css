@@ -19,6 +19,24 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.font-poppins {
+  font-family: var(--font-poppins), var(--font-sans), system-ui, sans-serif;
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat), var(--font-sans), system-ui, sans-serif;
+}
+
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-emerald-300;

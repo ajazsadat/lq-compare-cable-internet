@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const BARE_PATHS = new Set(['/contact-to-compare', '/compare-internet-options']);
+const BARE_PATHS = new Set(['/contact-us-to-compare', '/compare-internet-options']);
 
 export default function SiteChrome({ children }) {
   const pathname = usePathname() || '';

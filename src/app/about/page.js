@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About Us | LQcomparecableinternet',
-  description: 'Learn more about LQcomparecableinternet, operated by Lean and Quality Circle llc, an independent reseller helping you compare TV and Internet deals.',
+  description: 'Learn more about LQcomparecableinternet, operated by Lean and Quality Circle llc, an independent comparison and referral service helping you compare TV and Internet deals.',
 };
 
 export default function About() {
@@ -35,7 +35,7 @@ export default function About() {
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">What We Do</h2>
                 <p className="text-slate-600 leading-relaxed">
-                  LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent reseller. We compile the newest promotions from leading carriers such as Xfinity, Frontier, and Windstream and display these options in a straightforward format, enabling you to confidently compare pricing, speeds, and features. We don&apos;t own or operate any network; your chosen provider handles installation, billing, and support.
+                  LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent comparison and referral service. We compile the newest promotions from leading carriers such as Xfinity, Frontier, and Windstream and display these options in a straightforward format, enabling you to confidently compare pricing, speeds, and features. We don&apos;t own or operate any network; your chosen provider handles installation, billing, and support.
                 </p>
               </div>
 
@@ -63,7 +63,7 @@ export default function About() {
               <div className="bg-[#ffffff] border border-slate-200 rounded-3xl p-10 relative z-10 shadow-2xl">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">Ready to Compare?</h3>
                 <p className="text-slate-600 mb-8">
-                  Our experts are available to walk you through the options in your specific zip code and find the perfect match for your household's needs.
+                  Our experts are available to walk you through the options in your specific zip code and find the perfect match for your household&apos;s needs.
                 </p>
                 <div className="bg-[#f8fafc] rounded-xl p-6 border border-slate-200 flex flex-col items-center text-center">
                   <div className="w-16 h-16 bg-emerald-500/20 rounded-full flex items-center justify-center mb-4">

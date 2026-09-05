@@ -25,13 +25,31 @@ export default function Footer() {
                 <Link href="/contact" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Contact Us</Link>
               </li>
               <li>
+                <Link href="/contact-us-to-compare" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Contact Us to Compare</Link>
+              </li>
+              <li>
+                <Link href="/compare-internet-options" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Compare Internet Options</Link>
+              </li>
+              <li>
+                <Link href="/xfinity-plans" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Xfinity Plans</Link>
+              </li>
+              <li>
+                <Link href="/spectrum-plans" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Spectrum Plans</Link>
+              </li>
+              <li>
+                <Link href="/frontier-plans" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Frontier Plans</Link>
+              </li>
+              <li>
+                <Link href="/windstream-plans" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Windstream Plans</Link>
+              </li>
+              <li>
                 <Link href="/terms-conditions" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Terms & Conditions</Link>
               </li>
               <li>
                 <Link href="/privacy-policy" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="/reseller-disclosure" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Reseller Disclosure</Link>
+                <Link href="/comparison-disclosure" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Comparison &amp; Referral Disclosure</Link>
               </li>
               <li>
                 <Link href="/cookie-policy" className="text-sm text-slate-600 hover:text-emerald-400 transition-colors">Cookie Policy</Link>
@@ -77,7 +95,7 @@ export default function Footer() {
         
         <div className="mt-12 border-t border-slate-200 pt-8">
           <p className="text-xs text-slate-500 max-w-3xl">
-            LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent reseller that helps consumers compare internet, TV, and wireless service options. We do not own, operate, or provide telecommunications, internet, or TV services, and we are not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. All services are provided, installed, billed, and supported by licensed third-party providers, not by Lean and Quality Circle llc. For existing account questions, please contact your provider directly.
+            LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent comparison and referral service that helps consumers compare internet, TV, and wireless service options. We do not own, operate, or provide telecommunications, internet, or TV services, and we are not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. All services are provided, installed, billed, and supported by licensed third-party providers, not by Lean and Quality Circle llc. For existing account questions, please contact your provider directly.
           </p>
         </div>
       </div>

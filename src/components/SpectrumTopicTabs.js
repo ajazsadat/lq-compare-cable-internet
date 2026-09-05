@@ -6,7 +6,6 @@ const tabs = [
   { label: 'About Spectrum', hash: '' },
   { label: 'Internet', hash: 'internet' },
   { label: 'TV', hash: 'tv' },
-  { label: 'Customer Service', hash: 'customer-service' },
 ];
 
 function hashToSelected(hash) {

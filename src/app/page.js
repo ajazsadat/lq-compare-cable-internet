@@ -37,7 +37,7 @@ export default function Home() {
     },
     {
       q: "Are you an internet provider?",
-      a: "No. LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent reseller. We are not affiliated with any specific provider, and we don’t own or operate any network — your chosen provider handles installation, billing, and support."
+      a: "No. LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent comparison and referral service. We are not affiliated with any specific provider, and we don’t own or operate any network — your chosen provider handles installation, billing, and support."
     },
     {
       q: "Which connection types are offered?",
@@ -81,7 +81,7 @@ export default function Home() {
             Find Reliable <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-300">Internet, TV &amp; Wireless</span> Services Near You
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-            LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent reseller. This is not the official website of any internet, TV, or wireless service provider.
+            LQcomparecableinternet is operated by Lean and Quality Circle llc, an independent comparison and referral service. This is not the official website of any internet, TV, or wireless service provider.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -101,7 +101,8 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Who We Are</h2>
           <p className="text-slate-600 text-base md:text-lg font-light leading-relaxed mb-4">
             LQcomparecableinternet.com is operated by Lean and Quality Circle llc, an independent
-            reseller. We help households and businesses compare internet, TV, and wireless plans
+            comparison and referral service. We help households and businesses compare internet,
+            TV, and wireless plans
             from leading providers — so you can find the right fit without the runaround. We
             don&apos;t favor any carrier; our comparisons are based on your location, your needs,
             and your budget.
@@ -114,7 +115,7 @@ export default function Home() {
       </section>
 
       {/* Solutions Grid Section */}
-      <section className="py-24 bg-[#f8fafc] relative">
+      <section id="services" className="scroll-mt-28 py-24 bg-[#f8fafc] relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Your Hub for Premium Connectivity & Entertainment<br/><span className="text-emerald-400">Available Through LQcomparecableinternet</span></h2>
@@ -170,14 +171,17 @@ export default function Home() {
           <p className="text-slate-600 text-base md:text-lg font-light leading-relaxed">
             A single, convenient platform to explore high-speed Internet, Cable TV, Home Phone,
             Wireless, and Home Security options—featuring real-time availability, upfront pricing,
-            and easy installation coordination as an independent reseller for several leading U.S.
-            telecom and home service providers.
+            and easy installation coordination as an independent comparison and referral service
+            covering several leading U.S. telecom and home service providers.
           </p>
         </div>
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-24 bg-gradient-to-b from-[#f8fafc] to-[#f1f5f9] relative border-t border-slate-200">
+      <section
+        id="choose-us"
+        className="scroll-mt-28 py-24 bg-gradient-to-b from-[#f8fafc] to-[#f1f5f9] relative border-t border-slate-200"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             
@@ -315,8 +319,8 @@ export default function Home() {
             </p>
             <p>
               LQcomparecableinternet.com is operated by Lean and Quality Circle llc, an independent
-              reseller. This is not the official website of any internet, TV, or wireless service
-              provider. We do not own, operate, or maintain any network infrastructure, and we are
+              comparison and referral service. This is not the official website of any internet,
+              TV, or wireless service provider. We do not own, operate, or maintain any network infrastructure, and we are
               not a licensed service provider — we simply help you compare and connect with home
               internet, fiber, wireless, and TV options. All services are provided, installed, and
               billed directly by licensed third-party providers.
